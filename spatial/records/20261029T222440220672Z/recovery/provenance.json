@@ -1,0 +1,17 @@
+{
+  "kind": "mistyped_pause_feedback_removed",
+  "reason": "User typed 'pause' intending to pause (the program only pauses on 'quit'); it was recorded as feedback and revision 1 was requested.",
+  "original_agent_state": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/runs/20261029T222440220672Z/recovery/agent_state.json",
+  "original_manifest": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/runs/20261029T222440220672Z/recovery/manifest.json",
+  "restored_response_source": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/runs/20261029T222440220672Z/agent_cluster.json",
+  "restored_response_sha256": "e6f015408ab7f97fb90d15d92fad035c73969b4cce4375c3351ad16d4f8316e2",
+  "orphaned_unanswered_request": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/runs/20261029T222440220672Z/api/005.request.json",
+  "orphaned_pending_job": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/runs/20261029T222440220672Z/api/job_c088dfd21bfcb7ac5aa5.json",
+  "cluster_proposal_unchanged": true,
+  "status": "Cluster resolution 0.5 proposal restored; user approval pending",
+  "model": "claude-haiku-5-5",
+  "api_calls": 0,
+  "scientific_recalculation": false,
+  "requested_by": "user",
+  "performed_by": "Claude Code (claude-opus-5-5), 2026-10-29"
+}

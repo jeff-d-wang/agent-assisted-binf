@@ -1,0 +1,7 @@
+{
+  "query": "FCER1A CLEC10A CD1C conventional dendritic cells type 2 marker genes",
+  "retrieved_at": "2026-10-29T21:33:49.631920+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=FCER1A+CLEC10A+CD1C+conventional+dendritic+cells+type+2+marker+genes",
+  "fetch_url": null,
+  "papers": []
+}

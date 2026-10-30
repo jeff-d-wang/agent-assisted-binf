@@ -1,0 +1,209 @@
+{
+  "annotations": [
+    {
+      "run": "res_1p5",
+      "cluster": "0",
+      "label": "T cells (CD4-like memory/activated; IL7R+ AQP3+)",
+      "confidence": "supported",
+      "markers": [
+        "IL7R",
+        "LTB",
+        "AQP3",
+        "CD3D",
+        "CD3E",
+        "CD2"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: IL7R (78% vs 32%), LTB, AQP3, TNFRSF4, CD40LG, CD2, CD3D and CD3E are enriched. S100A4 is detected in 94%. CD4 is detected in 15%, and CD8A in 5%. CD4-like memory is an inference. Abstracts support CD3D/CD3E/CD2 only, not IL7R, AQP3 or CD40LG."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "1",
+      "label": "T cells (naive-like, CCR7+ LDHB+; CD4/CD8 split unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "LDHB",
+        "CCR7"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: LDHB and CCR7 (52% vs 13%) are enriched, with ribosomal genes. CD3D is detected in 88% and CD3E in 78%. SELL is detected in 66%, CD8B in 26% and CD4 in 7%. Naive-like is an inference. CD3D/CD3E did not differ from cluster 0. Abstracts support CD3D/CD3E only, not CCR7 or LDHB."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "2",
+      "label": "B cells (naive-like features)",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A (94% vs 4%), MS4A1, CD79B, TCL1A, BANK1 and VPREB3 are strongly enriched, with MHC class II genes. FCER2 is also enriched. Naive-like is an inference, not tested. PMID 38770541 names CD79A and MS4A1 as B-cell markers, but only in a CLL case. Distinct UMAP island."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "3",
+      "label": "CD8+ effector/memory-like cytotoxic T cells (GZMK+)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "CCL5",
+        "GZMA",
+        "GZMK",
+        "CD8A",
+        "CST7"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "37898694"
+      ],
+      "notes": "Computed: NKG7, CCL5, GZMA, GZMK, CST7, CD8A, CD8B and GZMH are enriched. CD3D is detected in 85%. KLRF1 is detected in 4.5% and NCAM1 in 0.3%, so NK cells are unlikely to dominate. Abstracts support NKG7/granzymes/CD8A as cytotoxic or T-cell genes, not GZMK or CCL5."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "4",
+      "label": "CD14+ classical monocytes (S100-high)",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42794611",
+        "42004243",
+        "38936146",
+        "36238494",
+        "32810439"
+      ],
+      "notes": "Computed: S100A8, S100A9, LGALS2, FCN1, LYZ and CD14 (59% vs 10%) are enriched. FCGR3A is detected in 6%. Versus cluster 5, S100A8/S100A9/S100A12 are higher and HLA class II is lower. Abstracts support CD14+ monocytes and S100A8/S100A9, not LGALS2 or FCN1."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "5",
+      "label": "CD14+ monocytes (HLA-DR/CD68-high; classical vs intermediate unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "CD14",
+        "LGALS2",
+        "FCN1",
+        "MS4A6A",
+        "S100A8",
+        "CD68"
+      ],
+      "pmids": [
+        "42794611",
+        "42004243",
+        "32810439"
+      ],
+      "notes": "Computed: CD14 (73% vs 9%), LGALS2, FCN1, MS4A6A, S100A8 and CD68 are enriched. Versus cluster 4, HLA class II and CD68 are higher and S100A8/S100A9 lower. FCGR3A is detected in 24% and CLEC10A in 12%. Subset is unresolved. Abstracts support CD14+ monocytes, not CD68 or MS4A6A."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "6",
+      "label": "T cells (ribosomal-gene-high, low-complexity; subtype unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "CD3D",
+        "IL32"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: top markers are mostly ribosomal genes and MALAT1. CD3D (78%) and IL32 are enriched. CD3E is detected in 61%. Median genes are 590, the lowest of any cluster. Versus cluster 1, CCL5, GZMK and NKG7 are higher. Library-size or low-RNA effects may contribute. No CD4/CD8 call. Abstracts support CD3D only."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "7",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "supported",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "CSF1R",
+        "LST1"
+      ],
+      "pmids": [
+        "42794611",
+        "42868142",
+        "32810439"
+      ],
+      "notes": "Computed: FCGR3A (96% vs 14%), MS4A7, CDKN1C, HES4, LILRA3, CSF1R and LST1 are enriched. CD14 is detected in 17%, versus 59\u201373% in clusters 4 and 5. Cytotoxic genes are low, which argues against NK cells. Abstracts support FCGR3A+ and CD16-high monocytes, not MS4A7, CDKN1C or LILRA3."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "8",
+      "label": "NK cells (CD16+ cytotoxic)",
+      "confidence": "supported",
+      "markers": [
+        "GZMB",
+        "FGFBP2",
+        "SPON2",
+        "PRF1",
+        "GNLY",
+        "NKG7"
+      ],
+      "pmids": [
+        "40538191",
+        "42682208",
+        "39074350"
+      ],
+      "notes": "Computed: GZMB, FGFBP2, SPON2, PRF1, GNLY, KLRD1 and NKG7 (100% of cells) are strongly enriched. FCGR3A is detected in 89% and KLRF1 in 27%. CD3D is detected in 8% and CD4 in 0%, which favors NK over T cells. NCAM1 is low (7%). Abstracts support GNLY/NKG7/GZMB/PRF1 as cytotoxic genes."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "9",
+      "label": "Dendritic cells (CD1C+ cDC-like; pDC admixture possible)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791",
+        "35101945"
+      ],
+      "notes": "Computed: FCER1A (83% vs 1%), CLEC10A, CD1C and SERPINF1 are enriched in 36 cells. HLA-DRA is detected in 100%. CLEC4C, LILRA4 and IL3RA are detected in 11\u201317%, so pDCs may be mixed in. Support is limited to a tumor scRNA abstract (38582791) and iPSC-derived cDC2 cells (35101945). Partial overlap."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "10",
+      "label": "Platelets or platelet-like cells (very small cluster)",
+      "confidence": "tentative",
+      "markers": [
+        "GP9",
+        "ITGA2B",
+        "TREML1",
+        "LY6G6F",
+        "ITGB3",
+        "GP1BA"
+      ],
+      "pmids": [
+        "30721642",
+        "34616175"
+      ],
+      "notes": "Computed: GP9 (90% vs 0.1%), ITGA2B, TREML1, LY6G6F, ITGB3 and GP1BA are enriched in only 10 cells. Median genes are 550. Abstracts support GP9 and ITGA2B as platelet genes, but only in non-PBMC contexts. PBMC-specific support was not retrieved. Small n and possible fragments, so tentative."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "query": "ITGA2B GP9 platelet gene expression",
+  "retrieved_at": "2026-10-29T21:37:00.670286+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=ITGA2B+GP9+platelet+gene+expression",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=34616175%2C30721642",
+  "papers": [
+    {
+      "pmid": "34616175",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34616175/",
+      "title": "Exploring Diagnostic Biomarkers and Comorbid Pathogenesis for Osteoarthritis and Metabolic Syndrome via Bioinformatics Approach.",
+      "abstract": "Metabolic syndrome (MS) has grown in recognition to contribute to the pathogenesis of osteoarthritis (OA), which is the most prevalent arthritis characterized by joint dysfunction. However, the specific mechanism between OA and MS remains unclear.\nThe gene expression profiles and clinical information data of OA and MS were retrieved from the Gene Expression Omnibus (GEO) database. The genes in the key module of MS were identified by weighted gene co-expression network analysis (WGCNA), which intersected with the differentially expressed genes (DEGs) between control and MS samples to obtain hub genes for MS. The potential functions and pathways of hub genes were detected through the Gene Ontology (GO) and Kyoto Encyclopedia of Gene and Genome (KEGG) analyses. The genes involved in the different KEGG pathways between the control and OA samples overlapped with the DEGs between the two groups via the Venn analysis to gain the hub genes for OA affected by MS (MOHGs). Additionally, the least absolute shrinkage and selection operator (LASSO) was performed on the MOHGs to establish a diagnostic model for each disease.\nA total of 61 hub genes for MS were identified that significantly enriched in platelet activation, complement and coagulation cascades, and hematopoietic cell lineage. Besides, 4 candidate genes (ELOVL7, F2RL3, GP9, and ITGA2B) were screened among the 6 MOHGs to construct a diagnostic model, showing good performance for distinguishing controls from patients with MS and OA. GSEA suggested that these diagnostic genes were closely associated with immune response, adipocytokine signaling, fatty acid metabolism, cell cycle, and platelet activation.\nTaken together, we identified 4 potential gene biomarkers for diagnosing MS and OA patients, providing a theoretical basis and reference for the diagnostics and treatment targets of MS and OA.",
+      "journal": "International journal of general medicine",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "30721642",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30721642/",
+      "title": "The human platelet transcriptome and proteome is altered and pro-thrombotic functional responses are increased during prolonged hypoxia exposure at high altitude.",
+      "abstract": "Exposure to hypoxia, through ascension to high altitudes (HAs), air travel, or human disease, is associated with an increased incidence of thrombosis in some settings. Mechanisms underpinning this increased thrombosis risk remain incompletely understood, and the effects of more sustained hypoxia on the human platelet molecular signature and associated functional responses have never been examined. We examined the effects of prolonged (\u22652\u00a0months continuously) hypobaric hypoxia on platelets isolated from subjects residing at HA (3,700\u00a0meters) and, for comparison, matched subjects residing under normoxia conditions at sea level (50\u00a0meters). Using complementary transcriptomic, proteomic, and functional methods, we identified that the human platelet transcriptome is markedly altered under prolonged exposure to hypobaric hypoxia at HA. Among the significantly, differentially expressed genes (mRNA and protein), were those having canonical roles in platelet activation and thrombosis, including membrane glycoproteins (e.g. GP4, GP6, GP9), integrin subunits (e.g. ITGA2B), and alpha-granule chemokines (e.g. SELP, PF4V1). Platelets from subjects residing at HA were hyperactive, as demonstrated by increased engagement and adhesion to fibrinogen, fewer alpha granules by transmission electron microscopy, increased circulating PF4 and ADP, and significantly enhanced clot retraction. In conclusion, we identify that prolonged hypobaric hypoxia exposure due to HA alters the platelet transcriptome and proteome, triggering increased functional activation responses that may contribute to thrombosis. Our findings may also have relevance across a range of human diseases where chronic hypoxia, platelet activation, and thrombosis are increased.",
+      "journal": "Platelets",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

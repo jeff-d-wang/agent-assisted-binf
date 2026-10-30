@@ -1,0 +1,6 @@
+mutation,author_resnum,is_annotated_functional_site,min_dist_ligand,nearest_functional_residue,min_dist_active_site,ca_ca_active_site,n_contacts_5A,ligand_in_5A,rsa,buried,ligand_contact_sasa,rel_bfactor,heavy_atoms_observed,d_charge,d_hydropathy,d_volume,blosum62,gly_pro_change
+G719S,695,True,AQ4:5.06,V726:2.88,D837:13.51,16.89,7,False,0.232,True,0.0,1.05,4/4,0,-0.4,28.9,0,True
+T790M,766,True,AQ4:3.48,K745:6.20,D837:13.77,17.60,10,True,0.182,True,19.3,0.95,7/7,0,2.6,46.8,-1,False
+C797S,773,False,AQ4:3.54,L718:7.93,D837:10.87,14.77,12,True,0.238,True,27.0,0.9,6/6,0,-3.3,-19.5,-1,False
+L858R,834,False,AQ4:5.26,D855:2.96,D837:6.37,8.22,12,False,0.096,True,3.6,0.9,8/8,1,-8.3,6.7,-2,False
+L861Q,837,False,AQ4:9.22,D855:7.44,D837:9.61,11.77,15,False,0.024,True,0.0,1.05,8/8,0,-7.3,-22.9,-2,False

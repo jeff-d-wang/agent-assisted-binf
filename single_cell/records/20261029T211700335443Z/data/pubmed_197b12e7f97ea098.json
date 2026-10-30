@@ -1,0 +1,16 @@
+{
+  "query": "FCER1A CD1C dendritic cells scRNA-seq marker",
+  "retrieved_at": "2026-10-29T21:34:00.260384+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=FCER1A+CD1C+dendritic+cells+scRNA-seq+marker",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=38582791",
+  "papers": [
+    {
+      "pmid": "38582791",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38582791/",
+      "title": "Single-cell RNA sequencing explores the evolution of the ecosystem from leukoplakia to head and neck squamous cell carcinoma.",
+      "abstract": "It has been found that progression from leukoplakia to head and neck squamous cell carcinoma (HNSCC) is a long-term process that may involve changes in the multicellular ecosystem. We acquired scRNA-seq samples information from gene expression omnibus and UCSC Xena database. The BEAM function was used to construct the pseudotime trajectory and analyze the differentially expressed genes in different branches. We used the ssGSEA method to explore the correlation between each cell subgroup and survival time, and obtained the cell subgroup related to prognosis. During the progression from leukoplakia to HNSCC, we found several prognostic cell subgroups, such as AURKB\u2009+\u2009epithelial cells, SFRP1\u2009+\u2009fibroblasts, SLC7A8\u2009+\u2009macrophages, FCER1A\u2009+\u2009CD1C\u2009+\u2009dendritic cells, and TRGC2\u2009+\u2009NK/T cells. All cell subgroups had two different fates, one tending to cell proliferation, migration, and enhancement of angiogenesis capacity, and the other tending to inflammatory immune response, leukocyte chemotaxis, and T cell activation. Tumor-promoting genes such as CD163 and CD209 were highly expressed in the myeloid cells, and depletion marker genes such as TIGIT, LAG3 were highly expressed in NK/T cells. Our study may provide a reference for the molecular mechanism of HNSCC and theoretical basis for the development of new therapeutic strategies.",
+      "journal": "Scientific reports",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

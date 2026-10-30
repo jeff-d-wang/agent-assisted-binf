@@ -1,0 +1,15 @@
+uniprot_pos,wt,feature,description,author_resnum,observed_in_structure
+837,D,Active site,Proton acceptor,813,True
+718,L,Binding site,ATP,694,True
+719,G,Binding site,ATP,695,True
+720,S,Binding site,ATP,696,True
+721,G,Binding site,ATP,697,True
+722,A,Binding site,ATP,698,True
+723,F,Binding site,ATP,699,True
+724,G,Binding site,ATP,700,True
+725,T,Binding site,ATP,701,True
+726,V,Binding site,ATP,702,True
+745,K,Binding site,ATP,721,True
+790,T,Binding site,ATP,766,True
+791,Q,Binding site,ATP,767,True
+855,D,Binding site,ATP,831,True

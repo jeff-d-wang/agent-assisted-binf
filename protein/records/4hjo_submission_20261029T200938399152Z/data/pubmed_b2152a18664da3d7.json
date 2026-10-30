@@ -1,0 +1,7 @@
+{
+  "query": "EGFR kinase domain mutations erlotinib sensitivity L858R L861Q G719S T790M",
+  "retrieved_at": "2026-10-29T20:49:51.281937+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+kinase+domain+mutations+erlotinib+sensitivity+L858R+L861Q+G719S+T790M",
+  "fetch_url": null,
+  "papers": []
+}

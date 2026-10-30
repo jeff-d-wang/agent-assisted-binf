@@ -1,0 +1,4 @@
+# Task 1 only. The Claude client uses Python's standard library.
+biopython==1.85
+numpy>=1.24,<3
+# Install PyMOL separately; see README.md.

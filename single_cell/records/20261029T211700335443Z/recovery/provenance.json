@@ -1,0 +1,16 @@
+{
+  "kind": "qc_field_whitespace_repair",
+  "source": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/single_cell/runs/20261029T211700335443Z/api/002.response.json",
+  "source_sha256": "67982fbe1251633be3b957d812fb3f9e4f7b0a6689d99d5ecaef1efa74f6ca71",
+  "request_sha256": "e75afb0b7999a7b796fe35fa970c9067c4659dd844644d33a439c528d53311d8",
+  "field_renames": {
+    " min_genes": "min_genes"
+  },
+  "thresholds_and_rationale_unchanged": true,
+  "status": "Provisional Claude QC proposal; user approval pending",
+  "model": "claude-sonnet-5-5",
+  "api_calls": 0,
+  "scientific_recalculation": false,
+  "original_runtime": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/single_cell/runs/20261029T211700335443Z/code",
+  "updated_runtime": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/single_cell/runs/20261029T211700335443Z/runtime"
+}

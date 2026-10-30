@@ -1,0 +1,4 @@
+reference,comparison,n_clusters,min_cluster_size,ari
+res_0p3,res_0p3,10,56,1.0
+res_0p3,res_0p5,14,29,0.7868598291024632
+res_0p3,res_0p8,16,56,0.7324033108095256

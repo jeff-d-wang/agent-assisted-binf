@@ -1,0 +1,48 @@
+{
+  "query": "EGFR C797S covalent",
+  "retrieved_at": "2026-10-29T20:49:58.436263+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+C797S+covalent",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=42906389%2C42625609%2C42583967%2C42514920%2C42257754",
+  "papers": [
+    {
+      "pmid": "42906389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906389/",
+      "title": "Small-molecule kinase-targeted covalent inhibitors till 2025: A comprehensive review of discovery, binding modes, clinical indications, and synthetic approaches.",
+      "abstract": "By 2025, covalent kinase inhibitors (CKIs) have achieved global approval, validating covalent inhibition as a therapeutic strategy. CKIs selectively capture, non-catalytic cysteine residues within the ATP-binding pockets most notably Cys797 in the epidermal growth factor receptor (EGFR), Cys481 in Bruton's tyrosine kinase (BTK), Cys488 in fibroblast growth factor receptor (FGFR), and Cys909 in Janus kinase 3 (JAK3). This review provides a comprehensive analysis of 35 clinically approved and investigational covalent kinase inhibitors, focusing on EGFR, BTK, FGFR, and JAK3 families. In this review, we discussed the discovery path, binding modes, structure-activity relationships (SAR), primary clinical indications, major limitations including off-target toxicity and acquired resistance mutations (such as EGFR C797S), and key synthetic strategies. Furthermore, current challenges and future directions in covalent kinase inhibitor development are discussed, highlighting the continued importance of this drug class in precision medicine.",
+      "journal": "European journal of medicinal chemistry",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42625609",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42625609/",
+      "title": "Emergence of EGFR C797S as a resistance mechanism to CLN081 in EGFR exon 20-mutant NSCLC: case report.",
+      "abstract": "EGFR exon 20 insertion mutations represent a distinct subset of non-small cell lung cancer (NSCLC) with limited sensitivity to earlier-generation EGFR tyrosine kinase inhibitors (TKIs). CLN081 (zipalertinib; TAS6417) is a novel covalent EGFR TKI under development with activity against EGFR exon 20 insertion variants. We report the case of a 44-year-old man with stage IVB lung adenocarcinoma harboring an EGFR exon 20 insertion mutation who received multiple lines of systemic therapy, including CLN081. After eight months of treatment with CLN081, liquid biopsy revealed the emergence of a secondary EGFR C797S mutation (p.Cys797Ser; variant allele frequency [VAF] 0.05%), concurrent with a reduction in the exon 20 insertion allele frequency from 35.1% to 0.5%, accompanied by disease progression. Although C797S-mediated resistance has been hypothesized and demonstrated in preclinical models of CLN081 exposure, this represents, to our knowledge, the first reported in vivo identification of an EGFR C797S resistance mutation following CLN081 therapy. This case provides clinically relevant insight into resistance mechanisms associated with emerging EGFR exon 20-targeted therapies.",
+      "journal": "Frontiers in oncology",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42583967",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42583967/",
+      "title": "Epidermal growth factor receptor as a target enzyme in cancer therapy: Structural and functional insights from crystallography.",
+      "abstract": "The epidermal growth factor receptor (EGFR) is a transmembrane receptor tyrosine kinase that plays a central role in regulating cell growth, differentiation, and survival. In non-small cell lung cancer (NSCLC) and several other malignancies, activating mutations within the EGFR kinase domain lead to persistent receptor activation and uncontrolled downstream signalling. Over the past two decades, X-ray crystallographic studies and structural data deposited in the Protein Data Bank have significantly enhanced our understanding of EGFR activation mechanisms, mutation-driven conformational changes, and inhibitor binding interactions. This review provides a critical evaluation of structural insights obtained from crystal structures of wild-type and mutant EGFR, with particular focus on clinically important mutations such as L858R, T790M, and C797S. These mutations induce specific alterations in activation loop positioning, \u03b1C-helix orientation, and ATP-binding pocket architecture, thereby influencing drug binding affinity and therapeutic response. The structural basis for the evolution of EGFR tyrosine kinase inhibitors-from first-generation reversible inhibitors to mutant-selective covalent agents-is discussed in relation to emerging resistance mechanisms. Although structural characterisation has substantially contributed to rational drug design, the ongoing development of resistance mutations highlights the need to integrate crystallographic data with tumour biology and resistance pathways to achieve more durable therapeutic strategies.",
+      "journal": "Indian journal of pharmacology",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42514920",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42514920/",
+      "title": "Exploiting the T790M Gatekeeper: A Theoretical Blueprint for Non-Covalent Inhibition of in cis Triple-Mutant EGFR.",
+      "abstract": "Background/Objectives: The EGFR T790M mutation drives lung cancer resistance by sterically hindering inhibitors and restoring ATP affinity. As C797S mutations render covalent inhibitors obsolete, novel non-covalent strategies are critical. This study identifies inhibitors that redefine the mutant methionine sulfur as a primary stabilizing anchor rather than a liability. Methods: A generative AI framework (DrugEx) sampled 100,000 molecules, prioritized via QSAR classification (ROC-AUC: 0.91 \u00b1 0.01) and Applicability Domain (AD) mapping. The workflow was de-risked through retrospective benchmarking against the DUD-E database (35,590 molecules), achieving a 1% Enrichment Factor of 5.19. Lead candidates underwent 100 ns all-atom molecular dynamics (MD) simulations. Mechanistic stability was quantified via Free Energy Landscape (FEL) analysis and ensemble-averaged MM-GBSA binding free energy calculations. Results: Candidate 106 demonstrated exceptional mutation tolerance by redistributing interactions toward the Met790 sulfur atom. MD analysis confirmed potency is dictated by successful recruitment of the thioether environment, locking the complex within a narrow thermodynamic basin. Candidate 106 maintained stable binding (-11.0 kcal/mol) corroborated by an equipotent MM-GBSA \u0394Gbind of -50.51 kcal/mol in the mutant system, driven by persistent \u03c0-sulfur contacts (85% occupancy). Conclusions: These results indicates that potential T790M resistance bypass is achievable by exploiting the gatekeeper methionine's electronic environment. This modeled mutation-aware framework provides a candidate non-covalent strategy to be validated in future wet-lab campaigns.",
+      "journal": "Pharmaceutics",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42257754",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42257754/",
+      "title": "Machine learning-guided drug repurposing for EGFR inhibition using scaffold-split validation, docking, and molecular dynamics.",
+      "abstract": "Aberrant epidermal growth factor receptor (EGFR) signaling drives multiple cancers, but the clinical effectiveness of EGFR inhibitors is limited by relapse, toxicity, and mutation-associated resistance. This study applied an integrated computational drug-repurposing workflow combining machine learning-based potency prediction, structure-based docking, and molecular dynamics simulation to prioritize approved DrugBank compounds for mutant EGFR evaluation. EGFR bioactivity data from ChEMBL were curated, standardized, converted to pIC50 values, and represented using SwissADME physicochemical descriptors and Morgan fingerprints. Among the evaluated regression models, ExtraTrees performed best and was selected for screening. Using ECFP plus descriptor features, ExtraTrees achieved R2 = 0.71 \u00b1 0.02 and RMSE = 0.74 \u00b1 0.02 under random splits, and retained useful performance under Murcko scaffold splits with R2 = 0.55 \u00b1 0.01, RMSE = 0.90 \u00b1 0.02, and Spearman \u03c1 = 0.74 \u00b1 0.02. The model was used to screen approved DrugBank compounds, prioritize 500 candidates, and guide docking against EGFR L858R/T790M/C797S (PDB: 6LUD). Docking identified Abemaciclib (-9.65\u00a0kcal/mol), Crizotinib (-8.29\u00a0kcal/mol), and Avapritinib (-8.10\u00a0kcal/mol) as favorable candidates. Abemaciclib scored slightly more favorably than Osimertinib (-9.44\u00a0kcal/mol) in this non-covalent docking setup. Subsequent 100 ns molecular dynamics simulations refined the ranking, with Crizotinib and Avapritinib showing more favorable dynamic profiles, while Abemaciclib showed greater ligand mobility. Oncology drugs were significantly enriched among the top 50 docked hits relative to the scored DrugBank background. These results support ML-guided docking and MD refinement as a practical strategy for prioritizing repurposing candidates for experimental EGFR validation.",
+      "journal": "Journal of computer-aided molecular design",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

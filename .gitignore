@@ -1,0 +1,31 @@
+# Extracted datasets (re-create with the tar commands in PROJECT_PLAN.md)
+datasets/pbmc3k/filtered_gene_bc_matrices/
+datasets/visium_mouse_brain/spatial/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+cache/
+
+# Secrets
+.env
+*.key
+auth.json
+.codex/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Per-run transcripts (include image payloads), repeated caches and generated sessions.
+protein/runs/
+single_cell/runs/
+spatial/runs/
+archive/
+# Full per-gene statistics are reproducible and large; retain selected top-marker tables.
+single_cell/tables/*/markers_*.csv
+*.h5ad
+*.pse

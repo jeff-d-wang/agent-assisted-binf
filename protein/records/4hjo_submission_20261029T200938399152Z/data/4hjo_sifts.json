@@ -1,0 +1,1 @@
+{"4hjo":{"UniProt":{"P00533":{"name":"EGFR_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":696,"unp_end":1022,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":11},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":337},"identity":0.97,"coverage":0.276}],"identifier":"EGFR_HUMAN"}}}}

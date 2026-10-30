@@ -1,0 +1,16 @@
+{
+  "statistic": "Fraction of undirected physical edges whose endpoints have identical cluster labels",
+  "observed": 0.7800494856101055,
+  "null_mean": 0.08787261020624738,
+  "null_sd": 0.003172754293042489,
+  "null_q025": 0.0817749706993098,
+  "null_q975": 0.09376871988540174,
+  "analytic_random_label_expectation": 0.08813113128475132,
+  "excess_over_null_mean": 0.6921768754038581,
+  "empirical_upper_tail": 0.001,
+  "n_null_ge_observed": 0,
+  "n_randomizations": 999,
+  "seed": 42,
+  "n_clusters": 14,
+  "limitation": "Global label exchangeability can be broken by spatial QC artifacts. One section; no anatomical identity or individual-gene significance established."
+}

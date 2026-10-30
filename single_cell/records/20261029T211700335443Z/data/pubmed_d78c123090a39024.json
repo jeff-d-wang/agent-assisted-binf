@@ -1,0 +1,16 @@
+{
+  "query": "B cell markers CD79A MS4A1 single-cell human blood",
+  "retrieved_at": "2026-10-29T21:33:24.651147+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=B+cell+markers+CD79A+MS4A1+single-cell+human+blood",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=38770541",
+  "papers": [
+    {
+      "pmid": "38770541",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38770541/",
+      "title": "Unveiling the dynamics and molecular landscape of a rare chronic lymphocytic leukemia subpopulation driving refractoriness: insights from single-cell RNA sequencing.",
+      "abstract": "Early identification of resistant cancer cells is currently a major challenge, as their expansion leads to refractoriness. To capture the dynamics of these cells, we made a comprehensive analysis of disease progression and treatment response in a chronic lymphocytic leukemia (CLL) patient using a combination of single-cell and bulk genomic methods. At diagnosis, the patient presented with unfavorable genetic markers, including notch receptor 1 (NOTCH1) mutation and loss(11q). The initial and subsequent treatment lines did not lead to a durable response and the patient developed refractory disease. Refractory CLL cells featured substantial dysregulation in B-cell phenotypic markers such as human leukocyte antigen (HLA) genes, immunoglobulin (IG) genes, CD19 molecule (CD19), membrane spanning 4-domains A1 (MS4A1; previously known as CD20), CD79a molecule (CD79A) and paired box 5 (PAX5), indicating B-cell de-differentiation and disease transformation. We described the clonal evolution and characterized in detail two cell populations that emerged during the refractory disease phase, differing in the presence of high genomic complexity. In addition, we successfully tracked the cells with high genomic complexity back to the time before treatment, where they formed a rare subpopulation. We have confirmed that single-cell RNA sequencing enables the characterization of refractory cells and the monitoring of their development over time.",
+      "journal": "Molecular oncology",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

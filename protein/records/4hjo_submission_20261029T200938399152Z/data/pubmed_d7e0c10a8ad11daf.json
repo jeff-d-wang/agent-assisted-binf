@@ -1,0 +1,7 @@
+{
+  "query": "EGFR C797S reversible inhibitor binding affinity ATP km biochemical",
+  "retrieved_at": "2026-10-29T20:15:54.885698+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+C797S+reversible+inhibitor+binding+affinity+ATP+km+biochemical",
+  "fetch_url": null,
+  "papers": []
+}

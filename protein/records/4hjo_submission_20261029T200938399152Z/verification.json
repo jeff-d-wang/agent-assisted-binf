@@ -1,0 +1,7 @@
+{
+  "candidates": 5,
+  "ligand_distances_verified": 5,
+  "buried_sites": 5,
+  "missing_coordinates": [],
+  "scope": "Artifact and numerical checks only; scientific interpretation needs human review"
+}

@@ -1,0 +1,7 @@
+{
+  "query": "platelet transcripts PPBP PF4 PBMC single-cell RNA-seq platelet-leukocyte aggregates",
+  "retrieved_at": "2026-10-29T21:56:37.965315+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=platelet+transcripts+PPBP+PF4+PBMC+single-cell+RNA-seq+platelet-leukocyte+aggregates",
+  "fetch_url": null,
+  "papers": []
+}

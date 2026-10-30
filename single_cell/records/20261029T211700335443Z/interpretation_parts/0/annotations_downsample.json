@@ -1,0 +1,115 @@
+{
+  "annotations": [
+    {
+      "run": "downsample",
+      "cluster": "0",
+      "label": "T cells (subtype unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D (87% vs 25%), CD3E (78% vs 27%) and LDHB are enriched, along with ribosomal genes. The abstracts support CD3D/CD3E as T-cell genes, not LDHB. CD4, CD8, IL7R and CCR7 were not examined in this run, so no CD4/CD8 or naive/memory call. 848 cells."
+    },
+    {
+      "run": "downsample",
+      "cluster": "1",
+      "label": "CD14+ classical monocytes",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42794611",
+        "42004243",
+        "38936146",
+        "32810439"
+      ],
+      "notes": "Computed: S100A8, S100A9, LGALS2, FCN1, CD14 (65% vs 3%) and LYZ are strongly enriched. The abstracts support CD14+ monocytes and S100A8/S100A9 in classical monocytes. They do not support LGALS2, FCN1 or LYZ. 313 of its 322 cells come from baseline cluster 1."
+    },
+    {
+      "run": "downsample",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK cells and CD8+ effector T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "GZMA",
+        "NKG7",
+        "CST7",
+        "PRF1",
+        "CCL5",
+        "GNLY"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: strong enrichment of GZMA, NKG7, CST7, PRF1 and CCL5, plus GZMH, FGFBP2, GZMB, GZMK and KLRD1. This cluster did not split into NK and T cells at this resolution. CD3D, CD8A and KLRF1 were not examined here. The abstracts support cytotoxic genes, not an NK versus CD8 T split."
+    },
+    {
+      "run": "downsample",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A (94% vs 4%), MS4A1, CD79B, TCL1A, BANK1 and VPREB3 are enriched, with MHC class II genes. FCER2 and TCL1A suggest a naive-like subset (inference, not tested). PMID 38770541 names CD79A and MS4A1 as B-cell markers, but only in a CLL case. Distinct UMAP island."
+    },
+    {
+      "run": "downsample",
+      "cluster": "4",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "LST1",
+        "FCER1G"
+      ],
+      "pmids": [
+        "42868142",
+        "42794611"
+      ],
+      "notes": "Computed: FCGR3A (92% vs 14%), MS4A7, CDKN1C, LILRA3, LST1 and FCER1G are enriched. No cytotoxic genes appear among the top markers. The abstracts support FCGR3A+ monocytes only, not MS4A7, CDKN1C or LILRA3. CD14 was not checked in this run, so confidence stays tentative."
+    },
+    {
+      "run": "downsample",
+      "cluster": "5",
+      "label": "Dendritic cells (CD1C+ cDC-like; pDC admixture possible)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791",
+        "35101945"
+      ],
+      "notes": "Computed: FCER1A (86% vs 0.8%), CLEC10A, SERPINF1 and CD1C are enriched in only 29 cells. CLEC4C and FLT3 (17% each) suggest possible pDC admixture. Support is limited to a tumor scRNA abstract naming FCER1A+CD1C+ DCs and iPSC-derived CD1c+ cDC2 cells. Partial overlap, so tentative."
+    }
+  ]
+}

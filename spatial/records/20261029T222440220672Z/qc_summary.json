@@ -1,0 +1,7 @@
+{
+  "matrix_spots": 2702,
+  "in_tissue_spots": 2702,
+  "genes": 32285,
+  "mitochondrial_genes": 13,
+  "zero_count_spots": 0
+}

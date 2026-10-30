@@ -1,0 +1,474 @@
+{
+  "config": {
+    "case_name": "4hjo_submission",
+    "structure": {
+      "mmcif": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.cif.gz",
+      "pdb": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.pdb",
+      "chain": "A"
+    },
+    "uniprot_accession": "P00533",
+    "mutations": [
+      "G719S",
+      "T790M",
+      "C797S",
+      "L858R",
+      "L861Q"
+    ],
+    "question": "Which mutations are likely to affect protein function, and through what mechanisms? Distinguish effects on kinase activity from effects on drug response.",
+    "output_dir": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/protein",
+    "model": "claude-sonnet-5-5"
+  },
+  "structure": {
+    "pdb_id": "4hjo",
+    "chain": "A",
+    "heavy_atoms_matched": 2264,
+    "title": [
+      "Crystal structure of the inactive EGFR tyrosine kinase domain with erlotinib"
+    ],
+    "method": [
+      "X-RAY DIFFRACTION"
+    ],
+    "resolution": [
+      "2.75"
+    ],
+    "structure_citations": [
+      "23101586"
+    ],
+    "input_sha256": {
+      "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.cif.gz": "391217cffb1e59d83d669653ecbd710d0ee8ca65d5bc147375365b6257a6d81e",
+      "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.pdb": "95b122b5e152e705fcbcb4314be07ce9378c5a64ab3226e06046ca24ca674948"
+    },
+    "versions": {
+      "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:48:25) \n[Clang 14.0.6 ]",
+      "biopython": "1.85",
+      "numpy": "1.25.2"
+    }
+  },
+  "provenance": {
+    "run_date": "2026-10-29",
+    "structure_file": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.cif.gz",
+    "structure_sha256": "391217cffb1e59d83d669653ecbd710d0ee8ca65d5bc147375365b6257a6d81e",
+    "chain": "A",
+    "uniprot_url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+    "uniprot_entry_version": 301,
+    "uniprot_sequence_version": 2,
+    "uniprot_sha256": "90c459656751eac791efc2f369f49145d38cc949f5b41bf628180ac0a6874b02",
+    "sifts_url": "https://www.ebi.ac.uk/pdbe/api/mappings/uniprot/4hjo",
+    "sifts_sha256": "c1017119b0ae2e9671a7080d5557fdb37529ba76e9e16ecd8c77975a2e2b1eca",
+    "construct_differences": [
+      "engineered mutation VAL948->ARG (author 924)"
+    ],
+    "domains": [
+      [
+        "Protein kinase",
+        712,
+        979
+      ]
+    ],
+    "alignment": "global PairwiseAligner, BLOSUM62, gap open -10 / extend -0.5, free end gaps",
+    "measure": {
+      "pdb_file": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/4hjo.pdb",
+      "ligands": [
+        "AQ4"
+      ],
+      "cutoff_A": 5.0,
+      "buried_rsa": 0.25,
+      "chain_mean_b": 47.2,
+      "author_minus_uniprot": -24
+    },
+    "pymol_version": "3.1.0"
+  },
+  "checks": {
+    "candidates": 5,
+    "ligand_distances_verified": 5,
+    "buried_sites": 5,
+    "missing_coordinates": [],
+    "scope": "Artifact and numerical checks only; scientific interpretation needs human review"
+  },
+  "uniprot": {
+    "url": "https://www.uniprot.org/uniprotkb/P00533/entry",
+    "protein": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Epidermal growth factor receptor"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32926474"
+              }
+            ],
+            "value": "2.7.10.1"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Proto-oncogene c-ErbB-1"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Receptor tyrosine-protein kinase erbB-1"
+          }
+        }
+      ],
+      "flag": "Precursor"
+    },
+    "organism": {
+      "scientificName": "Homo sapiens",
+      "commonName": "Human",
+      "taxonId": 9606,
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Chordata",
+        "Craniata",
+        "Vertebrata",
+        "Euteleostomi",
+        "Mammalia",
+        "Eutheria",
+        "Euarchontoglires",
+        "Primates",
+        "Haplorrhini",
+        "Catarrhini",
+        "Hominidae",
+        "Homo"
+      ]
+    },
+    "function": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q01279"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10026169"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10805725"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11116146"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11483589"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11602604"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12297049"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12297050"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12620237"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12873986"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15374980"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15590694"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15611079"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17115032"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17349580"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17909029"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18046415"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19560417"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19836242"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20462955"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20837704"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21258366"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "27153536"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2790960"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32926474"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "35538033"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "7679104"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8144591"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9419975"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9488479"
+              }
+            ],
+            "value": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:12297050, PubMed:12620237, PubMed:12873986, PubMed:15374980, PubMed:15590694, PubMed:17115032, PubMed:19560417, PubMed:21258366, PubMed:27153536, PubMed:2790960, PubMed:35538033, PubMed:9488479). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues (PubMed:10026169, PubMed:17349580, PubMed:18046415, PubMed:19560417, PubMed:19836242). The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades (PubMed:10026169, PubMed:17349580, PubMed:18046415, PubMed:19560417, PubMed:19836242). Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Acts as a positive regulator of cGAS-STING signaling by mediating tyrosine phosphorylation of STING1, promoting production of type I interferon (IFN-alpha and IFN-beta), while inhibiting STING1 ability to regulate autophagy (PubMed:32926474). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8918811"
+              }
+            ],
+            "value": "May act as an antagonist of EGF action"
+          }
+        ],
+        "commentType": "FUNCTION",
+        "molecule": "Isoform 2"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21516087"
+              }
+            ],
+            "value": "(Microbial infection) Acts as a receptor for hepatitis C virus (HCV) in hepatocytes and facilitates its cell entry. Mediates HCV entry by promoting the formation of the CD81-CLDN1 receptor complexes that are essential for HCV entry and by enhancing membrane fusion of cells expressing HCV envelope glycoproteins"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "L-tyrosyl-[protein] + ATP = O-phospho-L-tyrosyl-[protein] + ADP + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:10596"
+            },
+            {
+              "database": "Rhea",
+              "id": "RHEA-COMP:10136"
+            },
+            {
+              "database": "Rhea",
+              "id": "RHEA-COMP:20101"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:46858"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:61978"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456216"
+            }
+          ],
+          "ecNumber": "2.7.10.1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10028"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15374980"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17349580"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18046415"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18227510"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19560417"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19563760"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "32926474"
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15282549"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15590694"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17334392"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18046415"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19836242"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25922362"
+              }
+            ],
+            "value": "Endocytosis and inhibition of the activated EGFR by phosphatases like PTPRJ and PTPRK constitute immediate regulatory mechanisms. Upon EGF-binding phosphorylates EPS15 that regulates EGFR endocytosis and activity. Moreover, inducible feedback inhibitors including LRIG1, SOCS4, SOCS5 and ERRFI1 constitute alternative regulatory mechanisms for the EGFR signaling. Up-regulated by NEU3-mediated desialylation of N-linked glycan at Asn-528"
+          }
+        ],
+        "commentType": "ACTIVITY REGULATION"
+      }
+    ]
+  },
+  "tables": {
+    "contact_sensitivity.csv": "mutation,cutoff_A,protein_contacts,ligand_in_cutoff\nG719S,4.0,5,False\nG719S,5.0,7,False\nG719S,6.0,8,True\nT790M,4.0,7,True\nT790M,5.0,9,True\nT790M,6.0,15,True\nC797S,4.0,10,True\nC797S,5.0,11,True\nC797S,6.0,13,True\nL858R,4.0,9,False\nL858R,5.0,12,False\nL858R,6.0,13,True\nL861Q,4.0,12,False\nL861Q,5.0,15,False\nL861Q,6.0,21,False\n",
+    "contacts_5A.csv": "mutation,partner,partner_author,partner_uniprot,min_heavy_dist\nG719S,VAL,693,717,3.59\nG719S,LEU,694,718,1.33\nG719S,SER,696,720,1.32\nG719S,GLY,697,721,4.57\nG719S,GLY,700,724,4.79\nG719S,THR,701,725,3.16\nG719S,VAL,702,726,2.88\nT790M,VAL,718,742,3.27\nT790M,ALA,719,743,2.97\nT790M,ARG,752,776,3.46\nT790M,LEU,753,777,4.17\nT790M,LEU,754,778,3.92\nT790M,LEU,764,788,4.14\nT790M,ILE,765,789,1.33\nT790M,GLN,767,791,1.33\nT790M,LEU,768,792,3.76\nT790M,AQ4,1001,,3.48\nC797S,PHE,771,795,3.95\nC797S,GLY,772,796,1.33\nC797S,LEU,774,798,1.33\nC797S,LEU,775,799,3.32\nC797S,ASP,776,800,3.45\nC797S,TYR,777,801,3.19\nC797S,ALA,816,840,3.82\nC797S,ARG,817,841,3.58\nC797S,VAL,819,843,3.68\nC797S,LEU,820,844,3.89\nC797S,VAL,821,845,4.14\nC797S,AQ4,1001,,3.54\nL858R,LYS,721,745,3.21\nL858R,LEU,723,747,4.54\nL858R,MET,742,766,4.57\nL858R,LEU,764,788,3.64\nL858R,ASP,831,855,2.96\nL858R,PHE,832,856,3.21\nL858R,GLY,833,857,1.32\nL858R,ALA,835,859,1.32\nL858R,LYS,836,860,3.07\nL858R,LEU,837,861,3.01\nL858R,LEU,838,862,2.81\nL858R,GLY,839,863,4.88\nL861Q,LEU,723,747,4.91\nL861Q,THR,727,751,4.95\nL861Q,SER,728,752,2.61\nL861Q,PRO,729,753,3.38\nL861Q,LYS,730,754,3.94\nL861Q,ILE,735,759,3.94\nL861Q,GLU,738,762,3.3\nL861Q,MET,742,766,3.81\nL861Q,LEU,764,788,4.45\nL861Q,GLY,833,857,3.11\nL861Q,LEU,834,858,3.01\nL861Q,ALA,835,859,3.45\nL861Q,LYS,836,860,1.33\nL861Q,LEU,838,862,1.33\nL861Q,GLY,839,863,3.05\n",
+    "functional_sites.csv": "uniprot_pos,wt,feature,description,author_resnum,observed_in_structure\n837,D,Active site,Proton acceptor,813,True\n718,L,Binding site,ATP,694,True\n719,G,Binding site,ATP,695,True\n720,S,Binding site,ATP,696,True\n721,G,Binding site,ATP,697,True\n722,A,Binding site,ATP,698,True\n723,F,Binding site,ATP,699,True\n724,G,Binding site,ATP,700,True\n725,T,Binding site,ATP,701,True\n726,V,Binding site,ATP,702,True\n745,K,Binding site,ATP,721,True\n790,T,Binding site,ATP,766,True\n791,Q,Binding site,ATP,767,True\n855,D,Binding site,ATP,831,True\n",
+    "mapping.csv": "mutation,uniprot_pos,wt_uniprot,mutant,wt_structure,label_seq_id,author_resnum,observed_in_structure,offset_author_minus_uniprot,uniprot_domain,sifts_alignment_agree\nG719S,719,G,S,G,34,695,True,-24,Protein kinase,True\nT790M,790,T,M,T,105,766,True,-24,Protein kinase,True\nC797S,797,C,S,C,112,773,True,-24,Protein kinase,True\nL858R,858,L,R,L,173,834,True,-24,Protein kinase,True\nL861Q,861,L,Q,L,176,837,True,-24,Protein kinase,True\n",
+    "uniprot_variants.csv": "mutation,feature,uniprot_change,description,pubmed_ids\nG719S,Natural variant,G>A,found in a lung cancer sample; dbSNP:rs121913428,16533793\nG719S,Natural variant,G>C,found in a lung cancer sample; dbSNP:rs28929495,15623594 16533793\nG719S,Natural variant,G>D,found in a lung cancer sample; dbSNP:rs121913428,16533793\nG719S,Natural variant,G>S,found in a lung cancer sample; somatic mutation; strongly increased kinase activity; constitutively activated kinase with higher levels of basal autophosphorylation; more sensitive to gefitinib than wild-type; dbSNP:rs28929495,15118125 15623594 16205628 16533793 17349580\nT790M,Natural variant,T>M,found in a lung cancer sample; increased kinase activity; dbSNP:rs121434569,16533793 18227510\nC797S,none,,no UniProt variant/mutagenesis annotation at this position,\nL858R,Natural variant,L>M,found in a lung cancer sample; dbSNP:rs121913443,16533793\nL858R,Natural variant,L>R,found in a lung cancer sample; somatic mutation; constitutively activated enzyme with strongly increased kinase activity; more sensitive to gefitinib than wild-type; dbSNP:rs121434568,15118125 15623594 16205628 16533793 17349580\nL861Q,Natural variant,L>Q,found in a lung cancer sample; constitutively activated kinase with higher levels of basal autophosphorylation; more sensitive to gefitinib than wild-type; dbSNP:rs121913444,15623594 16205628 16533793\n",
+    "measurements.csv": "mutation,author_resnum,is_annotated_functional_site,min_dist_ligand,nearest_functional_residue,min_dist_active_site,ca_ca_active_site,n_contacts_5A,ligand_in_5A,rsa,buried,ligand_contact_sasa,rel_bfactor,heavy_atoms_observed,d_charge,d_hydropathy,d_volume,blosum62,gly_pro_change\nG719S,695,True,AQ4:5.06,V726:2.88,D837:13.51,16.89,7,False,0.232,True,0.0,1.05,4/4,0,-0.4,28.9,0,True\nT790M,766,True,AQ4:3.48,K745:6.20,D837:13.77,17.60,10,True,0.182,True,19.3,0.95,7/7,0,2.6,46.8,-1,False\nC797S,773,False,AQ4:3.54,L718:7.93,D837:10.87,14.77,12,True,0.238,True,27.0,0.9,6/6,0,-3.3,-19.5,-1,False\nL858R,834,False,AQ4:5.26,D855:2.96,D837:6.37,8.22,12,False,0.096,True,3.6,0.9,8/8,1,-8.3,6.7,-2,False\nL861Q,837,False,AQ4:9.22,D855:7.44,D837:9.61,11.77,15,False,0.024,True,0.0,1.05,8/8,0,-7.3,-22.9,-2,False\n",
+    "pymol_check.csv": "mutation,ligand,biopython_min_dist,pymol_atoms_closer,pymol_atoms_within_d_plus_0p01,agrees\nG719S,AQ4,5.06,0,1,True\nT790M,AQ4,3.48,0,1,True\nC797S,AQ4,3.54,0,1,True\nL858R,AQ4,5.26,0,1,True\nL861Q,AQ4,9.22,0,1,True\n"
+  }
+}

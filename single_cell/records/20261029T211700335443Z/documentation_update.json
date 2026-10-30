@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-30T01:42:22.204689+00:00",
+  "run": "single_cell/runs/20261029T211700335443Z",
+  "original_manifest_sha256": "337c9ed2ac1c0b18ed5bb33bf4eabd9f243c854102548e2241fcc908da47b51b",
+  "archive": "archive/2026-10-29-before-deliverable-review",
+  "changed_files": {
+    "RESULTS.md": {
+      "before": "a2e95d6f9472e020d9ecfab6f4422df5351cc615452037012eb3b119479f194b",
+      "after": "3e3e6f703950aad3c69c992e1b9795e595de62b5ecc988879f6eef5c3bcf8871"
+    },
+    "events.jsonl": {
+      "before": "18f35fca20075a3327efcd0fe6c53fe8c89f31e71b2bec0d38b6f41d62a56d56",
+      "after": "48bd54fcb50a836e765ce269bd00a867bfe72c01218e2311ef879a914247e8b1"
+    },
+    "AGENT_LOG.md": {
+      "before": "5725ffbc5d41ae5fe755c312a29a2262cbf41a0300b4488c7498283712afb9cc",
+      "after": "b276f0d9207f48346f9048bade73f5c6203d63a841f6d129bdaf7ff70d4624a4"
+    },
+    "DOCUMENTATION_UPDATE.md": {
+      "before": null,
+      "after": "73d617e755bca7b74d8ffd1fca008702f0e5e34dc76c60c1c207d9caf829b277"
+    }
+  },
+  "unchanged_original_numerical_and_execution_artifacts": true,
+  "editor": "Codex",
+  "human_reviewer": "the user",
+  "new_scientific_acceptance": false
+}

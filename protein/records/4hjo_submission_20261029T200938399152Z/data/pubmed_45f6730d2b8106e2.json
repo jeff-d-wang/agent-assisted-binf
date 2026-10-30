@@ -1,0 +1,7 @@
+{
+  "query": "EGFR L858R destabilizes inactive conformation activation loop mechanism",
+  "retrieved_at": "2026-10-29T20:15:53.283534+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+L858R+destabilizes+inactive+conformation+activation+loop+mechanism",
+  "fetch_url": null,
+  "papers": []
+}

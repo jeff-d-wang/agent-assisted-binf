@@ -1,0 +1,13 @@
+{
+  "case_name": "4hjo_submission",
+  "structure": {
+    "mmcif": "datasets/4hjo.cif.gz",
+    "pdb": "datasets/4hjo.pdb",
+    "chain": "A"
+  },
+  "uniprot_accession": "P00533",
+  "mutations": ["G719S", "T790M", "C797S", "L858R", "L861Q"],
+  "question": "Which mutations are likely to affect protein function, and through what mechanisms? Distinguish effects on kinase activity from effects on drug response.",
+  "output_dir": "protein",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,7 @@
+{
+  "query": "NKG7 GZMA PRF1 cytotoxic NK cell CD8 T cell marker genes",
+  "retrieved_at": "2026-10-29T21:33:48.877656+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=NKG7+GZMA+PRF1+cytotoxic+NK+cell+CD8+T+cell+marker+genes",
+  "fetch_url": null,
+  "papers": []
+}

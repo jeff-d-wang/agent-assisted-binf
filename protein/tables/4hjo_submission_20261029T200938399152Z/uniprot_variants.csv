@@ -1,0 +1,10 @@
+mutation,feature,uniprot_change,description,pubmed_ids
+G719S,Natural variant,G>A,found in a lung cancer sample; dbSNP:rs121913428,16533793
+G719S,Natural variant,G>C,found in a lung cancer sample; dbSNP:rs28929495,15623594 16533793
+G719S,Natural variant,G>D,found in a lung cancer sample; dbSNP:rs121913428,16533793
+G719S,Natural variant,G>S,found in a lung cancer sample; somatic mutation; strongly increased kinase activity; constitutively activated kinase with higher levels of basal autophosphorylation; more sensitive to gefitinib than wild-type; dbSNP:rs28929495,15118125 15623594 16205628 16533793 17349580
+T790M,Natural variant,T>M,found in a lung cancer sample; increased kinase activity; dbSNP:rs121434569,16533793 18227510
+C797S,none,,no UniProt variant/mutagenesis annotation at this position,
+L858R,Natural variant,L>M,found in a lung cancer sample; dbSNP:rs121913443,16533793
+L858R,Natural variant,L>R,found in a lung cancer sample; somatic mutation; constitutively activated enzyme with strongly increased kinase activity; more sensitive to gefitinib than wild-type; dbSNP:rs121434568,15118125 15623594 16205628 16533793 17349580
+L861Q,Natural variant,L>Q,found in a lung cancer sample; constitutively activated kinase with higher levels of basal autophosphorylation; more sensitive to gefitinib than wild-type; dbSNP:rs121913444,15623594 16205628 16533793

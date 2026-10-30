@@ -1,0 +1,5 @@
+/Users/jeffwang/miniforge3/lib/python3.9/site-packages/anndata/_core/anndata.py:1908: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+OMP: Info #276: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Expression clustering complete: /Users/jeffwang/VSCode_Workspace/agent-assisted-binf/spatial/figures/20261029T222440220672Z
+Review before running the spatial stage.

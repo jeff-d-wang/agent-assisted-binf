@@ -1,0 +1,6 @@
+mutation,uniprot_pos,wt_uniprot,mutant,wt_structure,label_seq_id,author_resnum,observed_in_structure,offset_author_minus_uniprot,uniprot_domain,sifts_alignment_agree
+G719S,719,G,S,G,34,695,True,-24,Protein kinase,True
+T790M,790,T,M,T,105,766,True,-24,Protein kinase,True
+C797S,797,C,S,C,112,773,True,-24,Protein kinase,True
+L858R,858,L,R,L,173,834,True,-24,Protein kinase,True
+L861Q,861,L,Q,L,176,837,True,-24,Protein kinase,True

@@ -1,0 +1,48 @@
+{
+  "query": "EGFR L858R kinase activation mechanism inactive conformation",
+  "retrieved_at": "2026-10-29T20:24:43.276580+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+L858R+kinase+activation+mechanism+inactive+conformation",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=42915704%2C42656146%2C38523074%2C35152550%2C34319231",
+  "papers": [
+    {
+      "pmid": "42915704",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42915704/",
+      "title": "A Self-Locking DNAzyme Platform for Highly Specific Sensing of Low-Abundance Single-Base Mutations.",
+      "abstract": "Analysis of low-abundance single-base mutations remains technically challenging because of the difficulty in distinguishing minor sequence variations from wild-type backgrounds. Herein, we report a self-locking DNAzyme (SLOD) biosensor that suppresses spontaneous activation through a thermodynamically stabilized intramolecular inactive conformation. Unlike conventional hairpin DNAzymes that rely on direct target-induced activation and often exhibit limited capability for single-base discrimination, the proposed SLOD platform operates through a decoupled mechanism in which single-base mutation recognition is performed through flap endonuclease 1 (FEN1), whereas DNAzyme activation is driven by polymerase-generated competitive unlocking strands. This design separates mutation discrimination from signal generation, thereby improving specificity against wild-type background. The platform enabled quantitative detection of EGFR and KRAS mutations at mutant allele fractions as low as 0.1%-0.5%. A dual-color format was further established for the simultaneous detection of EGFR L858R and T790M in clinical samples. In a cohort of 35 clinical samples, the SLOD platform achieved an overall qualitative concordance of 97.1% (34/35) with the ARMS-PCR. In addition, the programmability of the biosensor was demonstrated through the AND, OR, and INHIBIT logic operations. This work establishes a low-background, single-base-discriminating, and modular DNAzyme biosensor platform for single-base mutation detection and clinically relevant nucleic acid sensing.",
+      "journal": "Analytical chemistry",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42656146",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656146/",
+      "title": "Asymmetric dimerization and allosteric control in the epidermal growth factor receptor.",
+      "abstract": "The human epidermal growth factor receptor (EGFR or HER1) and its three close relatives, HER2, HER3 and HER4, are receptor tyrosine kinases (RTKs) that regulate critical cellular processes and are frequently dysregulated in cancer. In contrast to RTKs that are activated primarily by trans-autophosphorylation, HER family receptors switch on through a fundamentally different mechanism based on asymmetric interactions between two kinase domains within a dimer. This distinctive mode of allosteric activation arose early in evolution and remains unique to the HER family. This review describes how ligand binding promotes asymmetric dimerization of the EGFR kinase domains, whereby one kinase (the 'activator') allosterically stabilizes the active conformation of its partner (the 'receiver') without requiring activation loop phosphorylation. Structural elements that enable this process include a hydrophobic activator/receiver interface, a membrane-proximal juxtamembrane 'latch' that stabilizes the dimer and an autoinhibitory element in the C-terminal tail that favours the inactive state. We discuss how oncogenic alterations, including the L858R mutation, exon 19 deletions and kinase domain duplications, drive ligand-independent asymmetric dimerization and how the action of the endogenous inhibitor MIG-6 and new allosteric inhibitors can be understood in the context of activator/receiver asymmetric dimerization. This article is part of the discussion meeting issue 'Epidermal growth factor receptor after 40 years'.",
+      "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "38523074",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38523074/",
+      "title": "Structural Analysis of the Macrocyclic Inhibitor BI-4020 Binding to EGFR Kinase.",
+      "abstract": "A novel macrocyclic inhibitor of mutant EGFR (BI-4020) has shown promise in pre-clinical studies of T790M and C797S drug-resistant non-small cell lung cancer. To better understand the molecular basis for BI-4020 selectivity and potency, we have carried out biochemical activity assays and structural analysis with X-ray crystallography. Biochemical potencies agree with previous studies indicating that BI-4020 is uniquely potent against drug-resistant L858R/T790M and L858R/T790M/C797S variants. X-ray structures with wild-type (2.4\u2005\u00c5) and T790M/V948R (3.1\u2005\u00c5) EGFR kinase domains show that BI-4020 is likely rendered selective due to interactions with the kinase domain hinge region as well as T790M, akin to Osimertinib. Additionally, BI-4020 is also rendered more potent due to its constrained macrocycle geometry as well as additional H-bonds to conserved K745 and T845 residues in both active and inactive conformations. These findings taken together show how this novel macrocyclic inhibitor is both highly potent and selective for mutant EGFR in a reversible mechanism and motivate structure-inspired approaches to developing targeted therapies in medicinal oncology.",
+      "journal": "ChemMedChem",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "35152550",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35152550/",
+      "title": "Insights into the negative regulation of EGFR upon the binding of an allosteric inhibitor.",
+      "abstract": "Epidermal growth factor receptor (EGFR) is an intensively focused drug target for non-small cell lung cancer (NSCLC). JBJ-04-125-02 is an effective ATP-noncompetitive and T790M/L858R-selective inhibitor of EGFR, but the implied negative regulation mechanism is not fully clarified. Here, computational approaches were employed to address this. We find that JBJ-04-125-02 induces contrary effects on the binding of adenosine and phosphate moieties of ATP. The allosteric inhibitor lowers the stability of the hinge region, affecting the anchor of the adenosine portion of ATP, while a more closed conformation of P-loop is observed and might be unfavorable for the phosphotransfer and product release. The umbrella sampling simulations further demonstrate that less free energy is needed for the initial dissociation of ATP (the adenosine group) from the inactive EGFR in the presence of JBJ-04-125-02, but more for the phosphate groups egressing from the active cavity. Together, these findings provide a deeper understanding of the negative regulation of JBJ-04-125-02. Moreover, the key inter-molecular interactions contributing to ATP binding are identified. Our work might pave the way for designing allosteric drugs targeting EGFR for lung cancer patients, and also suggests that computational techniques are effective for investigating the allosteric mechanism.",
+      "journal": "Chemical biology & drug design",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "34319231",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34319231/",
+      "title": "Structural basis of the effect of activating mutations on the EGF receptor.",
+      "abstract": "Mutations within the kinase domain of the epidermal growth factor receptor (EGFR) are common oncogenic driver events in non-small cell lung cancer. Although the activation of EGFR in normal cells is primarily driven by growth-factor-binding-induced dimerization, mutations on different exons of the kinase domain of the receptor have been found to affect the equilibrium between its active and inactive conformations giving rise to growth-factor-independent kinase activation. Using molecular dynamics simulations combined with enhanced sampling techniques, we compare here the conformational landscape of the monomers and homodimers of the wild-type and mutated forms of EGFR \u0394ELREA and L858R, as well as of two exon 20 insertions, D770-N771insNPG, and A763-Y764insFQEA. The differences in the conformational energy landscapes are consistent with multiple mechanisms of action including the regulation of the hinge motion, the stabilization of the dimeric interface, and local unfolding transitions. Overall, a combination of different effects is caused by the mutations and leads to the observed aberrant signaling.",
+      "journal": "eLife",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

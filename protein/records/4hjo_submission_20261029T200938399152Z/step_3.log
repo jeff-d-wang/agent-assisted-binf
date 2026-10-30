@@ -1,0 +1,5 @@
+{'mutation': 'G719S', 'ligand': 'AQ4', 'biopython_min_dist': 5.06, 'pymol_atoms_closer': 0, 'pymol_atoms_within_d_plus_0p01': 1, 'agrees': True}
+{'mutation': 'T790M', 'ligand': 'AQ4', 'biopython_min_dist': 3.48, 'pymol_atoms_closer': 0, 'pymol_atoms_within_d_plus_0p01': 1, 'agrees': True}
+{'mutation': 'C797S', 'ligand': 'AQ4', 'biopython_min_dist': 3.54, 'pymol_atoms_closer': 0, 'pymol_atoms_within_d_plus_0p01': 1, 'agrees': True}
+{'mutation': 'L858R', 'ligand': 'AQ4', 'biopython_min_dist': 5.26, 'pymol_atoms_closer': 0, 'pymol_atoms_within_d_plus_0p01': 1, 'agrees': True}
+{'mutation': 'L861Q', 'ligand': 'AQ4', 'biopython_min_dist': 9.22, 'pymol_atoms_closer': 0, 'pymol_atoms_within_d_plus_0p01': 1, 'agrees': True}

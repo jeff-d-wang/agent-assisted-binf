@@ -1,0 +1,6 @@
+# All three tasks, Python 3.9–3.10. The per-task files hold the tested pins;
+# Tasks 2 and 3 share the same Scanpy stack (Task 3 adds h5py).
+-r protein/requirements.txt
+-r single_cell/requirements.txt
+-r spatial/requirements.txt
+# Task 1 figure: PyMOL is not pip-installed here; `brew install pymol` (used: 3.1.0)

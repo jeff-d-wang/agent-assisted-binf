@@ -1,0 +1,48 @@
+{
+  "query": "EGFR V948R",
+  "retrieved_at": "2026-10-29T20:56:07.875999+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+V948R",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=42858544%2C41244755%2C38523074%2C31855568%2C29802850",
+  "papers": [
+    {
+      "pmid": "42858544",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42858544/",
+      "title": "Daidzein derivatives as potential inhibitors of mutant EGFR in non-small cell lung cancer: A computational study supported by molecular docking, DFT, molecular dynamics simulations, and MM/PBSA techniques.",
+      "abstract": "Lung cancer (LC) continues to be the foremost cause of cancer-related deaths worldwide. However, resistance to epidermal growth factor receptor(EGFR) tyrosine kinase inhibitors in non-small cell lung cancer (NSCLC) poses serious challenges to current treatments, and there is a need to identify small molecules to counteract this resistance.\nThis study aims to identify novel small molecules targeting a mutant EGFR kinase construct containing (L858R/T790M/V948R) using computational approaches.\nAn integrated computational workflow, i.e., Lipinski's Rule of five, ADMET profiling, density functional theory, molecular docking, and molecular dynamics (MD) simulation, was used to screen potential molecules from an initial library of 88 compounds from the PubChem database.\nMolecular docking studies have shown that daidzein compounds have more favorable docking scores (-9.84 to -8.98\u202fkcal/mol) than the co-crystallized ligand (-7.60\u202fkcal/mol). The molecular docking results were further examined using MD simulations and post-MD analysis. These compounds showed a variable predicted ADMET profile, with compound 1 displaying the most favorable profile. Electrostatic potential and frontier molecular orbitals have been calculated to explore the potential reactive sites and molecular stability. Moreover, based on MM/PBSA analysis, the binding free energy for compound 1 is -194.07\u202fkJ/mol, as compared to the reference compound -71.13\u202fkJ/mol, thereby demonstrating its enhanced binding affinity towards the target protein.\nThese findings support further investigation of daidzein derivatives as potential inhibitors of mutant EGFR in NSCLC, whereas compound 1 is a putative lead candidate requiring rigorous experimental validation.",
+      "journal": "Computer methods and programs in biomedicine",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "41244755",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41244755/",
+      "title": "Design, synthesis and structure-activity relationship analysis of dibenzodiazepinone derivatives against Osimertinib resistant NSCLC.",
+      "abstract": "Lung cancer, particularly NSCLC, is the leading cause of cancer-related deaths worldwide, accounting for over 80% of cases. Mutations in the epidermal growth factor receptor (EGFR) are key drivers of NSCLC. Although three generations of EGFR tyrosine kinase inhibitors (TKIs) have been developed, resistance limits their efficacy. The dibenzodiazepinone scaffold exhibits diverse biological activities, however, reports on its derivatives for treating NSCLC with EGFR mutations, particularly triple mutations, are rare. Guided by the binding model of DDC4002 with EGFRT790M/V948R, this study synthesized and characterized 36 dibenzodiazepinone analogues, evaluating their antiproliferative activity against NSCLC cell lines. Structure-activity relationship analysis highlighted the importance of substituents at the C2 and N10 positions. Compound 33 exhibited the strongest inhibitory effects, especially for H1975\u2122 cells (EGFRL858R/T790M/C797S) with a 2.4-fold lower IC50 (2.7 \u03bcM) than osimertinib (6.5 \u03bcM). It effectively inhibited colony formation, migration of H1975\u2122 cells, induced G0/G1 arrest, and promoted apoptosis through suppressing EGFR and AKT phosphorylation. These findings demonstrate the potential of optimizing the dibenzodiazepinone framework for developing novel potent molecules against osimertinib resistant NSCLC cells, providing valuable insights for future research.",
+      "journal": "RSC medicinal chemistry",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "38523074",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38523074/",
+      "title": "Structural Analysis of the Macrocyclic Inhibitor BI-4020 Binding to EGFR Kinase.",
+      "abstract": "A novel macrocyclic inhibitor of mutant EGFR (BI-4020) has shown promise in pre-clinical studies of T790M and C797S drug-resistant non-small cell lung cancer. To better understand the molecular basis for BI-4020 selectivity and potency, we have carried out biochemical activity assays and structural analysis with X-ray crystallography. Biochemical potencies agree with previous studies indicating that BI-4020 is uniquely potent against drug-resistant L858R/T790M and L858R/T790M/C797S variants. X-ray structures with wild-type (2.4\u2005\u00c5) and T790M/V948R (3.1\u2005\u00c5) EGFR kinase domains show that BI-4020 is likely rendered selective due to interactions with the kinase domain hinge region as well as T790M, akin to Osimertinib. Additionally, BI-4020 is also rendered more potent due to its constrained macrocycle geometry as well as additional H-bonds to conserved K745 and T845 residues in both active and inactive conformations. These findings taken together show how this novel macrocyclic inhibitor is both highly potent and selective for mutant EGFR in a reversible mechanism and motivate structure-inspired approaches to developing targeted therapies in medicinal oncology.",
+      "journal": "ChemMedChem",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "31855568",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31855568/",
+      "title": "Molecular docking of novel 5-O-benzoylpinostrobin derivatives as wild type and L858R/T790M/V948R mutant EGFR inhibitor.",
+      "abstract": "Background Previous studies have shown that 5-O-benzoylpinostrobin derivatives is a potential anti-breast cancer, with the highest potential being the HER2 inhibitors, is a protein's member of the epidermal growth factor receptor (EGFR) family. Overexpression of EGFR itself is known to be one of the causes of other cancer, including non-small cell lung cancer (NSCLC). Thus, it is possible that 5-O-benzoylpinostrobin derivatives can also inhibit the overexpression of EGFR in NSCLC. In the case of NSCLC, mutations of EGFR are often found in several amino acids, such as L858R, T790M, and V948R. This study aimed to determine the potential of 5-O-benzoylpinostrobin derivatives as an inhibitor of wild type and L858R/T790M/V948R-mutant EGFR. Methods Docking was performed using AutoDock Vina 1.1.2 on both wild type and L858R/T790M/V948R-mutant EGFR. Parameters observed, consisted of free energy of binding (\u0394G) and amino acid interactions of each ligand. Results Docking results showed that all 5-O-benzoylpinostrobin derivatives showed a lower \u0394G for both wild type and L858R/T790M/V948R-mutant EGFR, with the lowest \u0394G shown by 4-methyl-5-O-benzoylpinostrobin and 4-trifluoromethyl-5-O-benzoylpinostrobin. Both the ligands have the similarity of interacting amino acids compared to reference ligands between 76.47 and 88.24%. Specifically, the \u0394G of all test ligands was lower in mutant EGFR than in the wild type, which indicates the potential of the ligand as EGFR inhibitors where a mutation to EGFR occurs. Conclusions These results confirm that 5-O-benzoylpinostrobin derivatives have the potential to inhibit EGFR in both wild type and L858R/T790M/V948R-mutant.",
+      "journal": "Journal of basic and clinical physiology and pharmacology",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "29802850",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29802850/",
+      "title": "Crystal structure of EGFR T790M/C797S/V948R in complex with EAI045.",
+      "abstract": "Lung cancer is the leading cause of cancer deaths. Epidermal growth factor receptor (EGFR) kinase domain mutations are a common cause of non-small cell lung cancers (NSCLCs), a major subtype of lung cancers. Patients harboring most of these mutations respond well to the anti-EGFR tyrosine kinase inhibitors (TKIs) gefitinib and erlotinib initially, but soon develop resistance to them in about half of the cases due to the emergence of the gatekeeper mutation T790M. The third-generation TKIs such as AZD9291, HM61713, CO-1686 and WZ4002 can overcome T790M through covalent binding to the EGFR kinase through Cys 797, but ultimately lose their efficacy upon emergence of the C797S mutation that abolishes the covalent bonding. Therefore to develop new TKIs to overcome EGFR drug-resistant mutants harboring T790M/C797S is urgently demanded. EAI001 and EAI045 are a new type of EGFR TKIs that bind to EGFR reversibly and not relying on Cys 797. EAI045 in combination with cetuximab is effective in mouse models of lung cancer driven by EGFR L858R/T790M and L858R/T790M/C797S. Here we report the crystal structure of EGFR T790M/C797S/V948R in complex with EAI045, and compare it to EGFR T790M/V948R in complex with EAI001. The complex structure reveals why EAI045 binds tighter to EGFR than does EAI001, and why EAI001 and EAI045 prefer binding to EGFR T790M. The knowledge may facilitate future drug development studies targeting this very important cancer target.",
+      "journal": "Biochemical and biophysical research communications",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

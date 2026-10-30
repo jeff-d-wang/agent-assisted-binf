@@ -1,0 +1,646 @@
+{
+  "annotations": [
+    {
+      "run": "res_0p3",
+      "cluster": "0",
+      "label": "T cells (naive/memory and CD4/CD8 split unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D 88%, CD3E 77%, LDHB 92% detected. IL7R 66%, CCR7 36%, CD8A 12%. I dropped the 'CD4-like predominant' claim because CD4 detection is low (about 7\u201315% in related runs). Support: abstracts name CD3D/CD3E as T-cell genes, not LDHB. 830/852 baseline T cells recovered in downsample."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "1",
+      "label": "Monocytes (CD14+ and FCGR3A+ subsets merged)",
+      "confidence": "supported",
+      "markers": [
+        "S100A9",
+        "S100A8",
+        "LYZ",
+        "FCN1",
+        "LST1"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439"
+      ],
+      "notes": "Computed: LYZ 99%, S100A9 96%, S100A8 85%; CD14 53%, FCGR3A 34%. Baseline FCGR3A+ cells (165) are merged here, so that split is resolution-sensitive. It appears at 0.6, 1.0, 1.5 and downsample. Support: the two abstracts link S100A8/S100A9 to classical monocytes. They do not support LYZ, FCN1 or LST1."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK cells and CD8+ T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "GNLY",
+        "PRF1",
+        "GZMA",
+        "CST7"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: NKG7 99.8%, GZMA 87%, PRF1 69%, GNLY 56%; CD3D 60%, CD8A 36%, KLRF1 12%, NCAM1 2%. NK plus CD8 T mixture is an inference. The split is not resolved at 0.3 (it needs resolution of at least 1.0). Support: abstracts back NKG7/GNLY/PRF1 as cytotoxic genes, not an NK-versus-T split. Label kept broad."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A 94%, CD79B 92%, MS4A1 86%, plus HLA class II genes, TCL1A and FCER2. All 346 baseline B cells fall here (235/235 in downsample). Support: PMID 38770541 names CD79A and MS4A1 as B-cell markers, but in a CLL patient, so scope is limited. A naive-like subset is untested inference."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "4",
+      "label": "Dendritic cell-like (CD1C+ cDC-like; pDC admixture and doublets not excluded)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791",
+        "35101945"
+      ],
+      "notes": "Computed: FCER1A 83%, CLEC10A 69%, CD1C 50%, SERPINF1 44%; CLEC4C 17%. Median counts are 5297 versus about 2300 elsewhere. CD3D 17%, CD79A 17%, NKG7 33%, with only CD79A above monocytes. Per-cell co-detection was not computed. Support: 38582791 is tumor FCER1A+CD1C+ DCs; 35101945 is iPSC-derived cDC2 and does not mention FCER1A."
+    },
+    {
+      "run": "res_0p6",
+      "cluster": "0",
+      "label": "T cells (CD4/CD8 identity and naive/memory state unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D 87%, CD3E 76% and LDHB 92% of cells. CD4 (~10%) and CD8A (~11%) are sparsely detected, so I removed 'CD4-like predominant'. Support: both abstracts name CD3D/CD3E as T-cell genes. Neither supports LDHB. Downsample recovered 830/852 baseline cells."
+    },
+    {
+      "run": "res_0p6",
+      "cluster": "1",
+      "label": "CD14+ classical monocytes",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439",
+        "38936146"
+      ],
+      "notes": "Computed: CD14 63% vs 2.5% elsewhere, S100A8 93%, S100A9 97%. Support: abstracts link S100A8/S100A9 and CD14++ to classical monocytes, but not FCN1, LYZ or LGALS2. 36 cells were the DC-like group at 0.3, so they are probably the UMAP tail (inference). Downsample recovered 313/363 (29 DC-like, 21 FCGR3A)."
+    },
+    {
+      "run": "res_0p6",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK and CD8+ T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "GZMA",
+        "PRF1",
+        "GZMB",
+        "GNLY",
+        "CST7"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: NKG7 in 99% of cells, with GZMA, PRF1, GZMB and GNLY enriched. At res_1 these cells split into 307 CD3D+/CD8A+/GZMK+ cells and 130 NK-like cells (GNLY 97%, CD3D 7%). That split is not resolved at 0.6, so the label stays broad. Abstracts support NKG7/GNLY/PRF1/GZMB, not GZMA or CST7. Downsample recovered 286/305."
+    },
+    {
+      "run": "res_0p6",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A 94%, MS4A1 86% and CD79B 92% of cells, plus HLA class II, TCL1A and FCER2. Support: 38770541 names CD79A and MS4A1 as B-cell markers, but in one CLL patient, so scope is limited. A naive-like subset is an untested inference. Membership is identical in all runs (235/235 in downsample)."
+    },
+    {
+      "run": "res_0p6",
+      "cluster": "4",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "CSF1R",
+        "LST1"
+      ],
+      "pmids": [
+        "32810439",
+        "42889286"
+      ],
+      "notes": "Computed: FCGR3A 91% vs 14% elsewhere, with MS4A7, CDKN1C, LILRA3 and CSF1R enriched. Support is label-level only: abstracts describe CD16+/non-classical monocytes but name none of these genes. So tentative in all runs. Merged with CD14 monocytes at 0.3. Downsample recovered 100/109 shared cells."
+    },
+    {
+      "run": "res_1",
+      "cluster": "0",
+      "label": "T cells (CCR7+ LDHB+ subset; CD4/CD8 identity and naive/memory state unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "LDHB",
+        "CCR7",
+        "CD3D",
+        "CD3E"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: LDHB 90% vs 61% and CCR7 46% vs 11% are enriched. CD3D is detected in 85% and CD3E in 72%, but neither differs from cluster 1. CD4 is detected in 7% and CD8A in 16%. Inference: naive-like state. Support: abstracts name CD3D/CD3E as T-cell genes, not LDHB or CCR7, so the subset is tentative. 830/852 baseline T cells were recovered in the 0.6 downsample."
+    },
+    {
+      "run": "res_1",
+      "cluster": "1",
+      "label": "T cells (IL7R+ LTB+ memory/activated-like; CD4/CD8 identity unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "IL7R",
+        "CD2",
+        "LTB",
+        "IL32"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D 91%, CD3E 81%, IL7R 76% vs 31%, CD2, LTB and IL32 are enriched. CD40LG and TNFRSF4 are also enriched. CD4 is detected in only 15% and CD8A in 6.5%. I make no CD4 claim in the label. Support: abstracts name CD3D, CD3E and CD2 as T-cell genes, not IL7R or LTB. The label is the broad T-cell lineage only."
+    },
+    {
+      "run": "res_1",
+      "cluster": "2",
+      "label": "CD14+ classical monocytes",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439",
+        "38936146"
+      ],
+      "notes": "Computed: LGALS2, S100A8, S100A9, FCN1, CD14 (66% vs 3%) and LYZ are strongly enriched. FCGR3A is detected in 14%. Support: the three abstracts link S100A8/S100A9 to classical or CD14++ monocytes. They do not cover LGALS2, FCN1 or LYZ. 313/363 baseline CD14 cells stayed together in the downsample. 29 went to the DC-like cluster and 21 to FCGR3A."
+    },
+    {
+      "run": "res_1",
+      "cluster": "3",
+      "label": "B cells (naive-like features)",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A 94% vs 4%, MS4A1, CD79B, TCL1A, BANK1 and VPREB3 are strongly enriched, with MHC class II genes. Support: 38770541 names CD79A and MS4A1 as B-cell markers, but in a single CLL patient, so scope is limited. Naive-like is an untested inference. Membership is identical across runs, and 235/235 baseline B cells were recovered in the downsample."
+    },
+    {
+      "run": "res_1",
+      "cluster": "4",
+      "label": "Cytotoxic T cells (CD8A+ GZMK+, effector/memory-like)",
+      "confidence": "tentative",
+      "markers": [
+        "NKG7",
+        "GZMA",
+        "GZMK",
+        "CD8A",
+        "CST7",
+        "CCL5"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "37898694"
+      ],
+      "notes": "Computed: NKG7, CCL5, GZMA, CST7, GZMK and CD8A (46% vs 7%) are enriched. CD3D is detected in 84% and KLRF1 in 5%. Versus cluster 6, CD3D, CD8A, CD8B and GZMK are higher. This split appears only from res_1 and is not testable at 0.6, so it is tentative. Support: abstracts cover NKG7, granzymes and CD8A generally, not GZMK or CCL5."
+    },
+    {
+      "run": "res_1",
+      "cluster": "5",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "CSF1R",
+        "LST1"
+      ],
+      "pmids": [
+        "32810439",
+        "42889286",
+        "42794611"
+      ],
+      "notes": "Computed: FCGR3A 91% vs 14%, MS4A7, CDKN1C, LILRA3, CSF1R and LST1 are enriched. CD14 is detected in 16%. Support is label-level only: abstracts describe CD16+/non-classical monocytes but name none of these genes. 42794611 only uses the FCGR3A+ label. Tentative in every run. In the downsample, 100 of 109 shared baseline cells stayed together."
+    },
+    {
+      "run": "res_1",
+      "cluster": "6",
+      "label": "NK-like cells (CD16+ cytotoxic)",
+      "confidence": "tentative",
+      "markers": [
+        "GNLY",
+        "GZMB",
+        "PRF1",
+        "NKG7",
+        "FGFBP2",
+        "KLRD1"
+      ],
+      "pmids": [
+        "40538191",
+        "42682208",
+        "42609202"
+      ],
+      "notes": "Computed: GZMB, FGFBP2, PRF1, GNLY, KLRD1 and NKG7 are enriched. FCGR3A is detected in 89%, KLRF1 in 27%, CD3D in 7%, CD8A in 8%, CD4 in 0% and NCAM1 in 7%. Inference: NK rather than T cells. Support: 42682208 shows GNLY/NKG7 in NK cells, but 42609202 shows these genes in cytotoxic CD4+ T cells, so they are not NK-specific. The split is not testable at 0.6."
+    },
+    {
+      "run": "res_1",
+      "cluster": "7",
+      "label": "Dendritic cell-like (CD1C+ FCER1A+ cDC2-like; pDC admixture and doublets not excluded)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791",
+        "35101945"
+      ],
+      "notes": "Computed: FCER1A 83% vs 1%, CLEC10A, CD1C and SERPINF1 are enriched in 36 cells. CLEC4C, LILRA4 and IL3RA are detected in 11\u201317%. Median counts are 5297 vs 1757\u20133756 elsewhere. CD3D 17%, CD79A 17% and NKG7 33% are detected. Per-cell multi-lineage co-detection was not computed, so doublets are unresolved. Support: 38582791 covers FCER1A+CD1C+ DCs in tumor. 35101945 covers CD1c/CLEC10A cDC2 subsets in iPSC-derived cells, not FCER1A."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "0",
+      "label": "T cells (IL7R+ LTB+ AQP3+ memory/activated-like; CD4 vs CD8 identity not established)",
+      "confidence": "supported",
+      "markers": [
+        "IL7R",
+        "LTB",
+        "AQP3",
+        "CD3D",
+        "CD3E",
+        "CD2"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: IL7R 78% vs 32%, plus LTB, AQP3, CD3D, CD3E and CD2, are enriched. CD4 is detected in 15% and CD8A in 5%, so detection is sparse. I removed the CD4-like claim from the label. Retrieved: abstracts name CD3D/CD3E/CD2 as T-cell genes. None supports IL7R, LTB or AQP3."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "1",
+      "label": "T cells (naive-like, CCR7+ LDHB+; CD4/CD8 split unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "LDHB",
+        "CCR7"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: LDHB and CCR7 (52% vs 13%) are enriched, with ribosomal genes. CD3D is detected in 88%, CD3E 78%, SELL 66%, CD4 7% and CD8B 26%. CD3D/CD3E did not differ from cluster 0. Naive-like is an inference. Retrieved: abstracts support CD3D/CD3E only, not LDHB or CCR7."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "2",
+      "label": "B cells (naive-like features inferred)",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A (94% vs 4%), MS4A1, CD79B, TCL1A, BANK1 and VPREB3 are enriched, with MHC class II genes. Membership matches the baseline B cluster (235/235 shared baseline B cells recovered in the downsample). Retrieved: 38770541 names CD79A and MS4A1 as B-cell markers, but in one CLL patient. Naive-like is an untested inference."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "3",
+      "label": "Cytotoxic T cells (GZMK+ CD8A+ effector/memory-like)",
+      "confidence": "tentative",
+      "markers": [
+        "NKG7",
+        "CCL5",
+        "GZMA",
+        "GZMK",
+        "CD8A",
+        "CST7"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "37898694"
+      ],
+      "notes": "Computed: NKG7, CCL5, GZMA, GZMK, CST7 and CD8A are enriched. CD3D is detected in 85%, CD8A in 48%, CD8B in 35% and KLRF1 in 4.5%. This split is not testable at 0.6 and is resolution-sensitive, so tentative. Retrieved: abstracts support NKG7 and CD8A in T/NK contexts, not GZMK, CCL5, GZMA or CST7."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "4",
+      "label": "CD14+ classical monocytes (S100-high)",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439",
+        "38936146"
+      ],
+      "notes": "Computed: S100A8 (99% vs 20%), S100A9, LGALS2, FCN1, LYZ and CD14 (59% vs 10%) are enriched. FCGR3A is detected in 6%. Versus cluster 5, S100A8/S100A9 are higher and HLA class II lower. Retrieved: the abstracts link S100A8/S100A9 to classical or CD14++ monocytes. None covers LGALS2, FCN1 or LYZ."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "5",
+      "label": "CD14+ monocytes (HLA-DR/CD68-high; classical vs intermediate unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "CD14",
+        "LGALS2",
+        "FCN1",
+        "MS4A6A",
+        "S100A8",
+        "CD68"
+      ],
+      "pmids": [
+        "42004243",
+        "38936146"
+      ],
+      "notes": "Computed: CD14 (73% vs 9%), LGALS2, FCN1, MS4A6A, S100A8 and CD68 are enriched. FCGR3A is detected in 24%. Versus cluster 4, HLA class II and CD68 are higher and S100A8/S100A9 lower. Subtype is an unresolved inference. Retrieved: abstracts cover CD14++ monocytes and S100A8, not CD68, MS4A6A, LGALS2 or FCN1. Clusters 4 and 5 jointly hold 485/523 baseline CD14 cells."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "6",
+      "label": "T cells (ribosomal-gene-high, low-complexity; subtype unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "CD3D",
+        "IL32"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: top markers are mostly ribosomal genes and MALAT1. CD3D (78% vs 50%) and IL32 are enriched, and CD3E is detected in 61%. Median genes are 590, the lowest of any cluster, so low-RNA effects are possible. Versus cluster 1, CCL5, GZMK and NKG7 are higher. Not testable at 0.6. Retrieved: abstracts support CD3D only. No CD4/CD8 call."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "7",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "CSF1R",
+        "LST1"
+      ],
+      "pmids": [
+        "32810439",
+        "42889286"
+      ],
+      "notes": "Computed: FCGR3A (96% vs 14%), MS4A7, CDKN1C, LILRA3, CSF1R and LST1 are enriched. CD14 is detected in 17% and cytotoxic genes are low. Tentative in every run: the abstracts give label-level support only (CD14lowCD16high or CD16+ non-classical monocytes), and none names MS4A7, CDKN1C or LILRA3. Merged with CD14 monocytes at 0.3."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "8",
+      "label": "NK-like cells (CD16+ cytotoxic; NK identity inferred)",
+      "confidence": "tentative",
+      "markers": [
+        "GZMB",
+        "FGFBP2",
+        "SPON2",
+        "PRF1",
+        "GNLY",
+        "NKG7"
+      ],
+      "pmids": [
+        "40538191",
+        "42682208",
+        "39074350"
+      ],
+      "notes": "Computed: GZMB, FGFBP2, SPON2, PRF1, GNLY, KLRD1 and NKG7 (100%) are enriched. FCGR3A is detected in 89%, KLRF1 27%, NCAM1 7%, CD3D 8% and CD4 0%. NK over T cell is an inference. Not testable at 0.6. Retrieved: abstracts support GNLY/NKG7/GZMB/PRF1 as cytotoxic genes, not NK-specific (cytotoxic CD4+ T cells also express them, per 42609202)."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "9",
+      "label": "Dendritic cell-like (CD1C+ FCER1A+ cDC2-like; pDC admixture and doublets not excluded)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791",
+        "35101945"
+      ],
+      "notes": "Computed: FCER1A (83% vs 1%), CLEC10A, CD1C and SERPINF1 are enriched in 36 cells. CLEC4C is detected in 17%, LILRA4 14%, CD3D 17%, CD79A 17% and NKG7 33%. Median counts are 5297 vs 1264\u20133841 elsewhere. Per-cell co-detection was not computed, so doublets are unresolved. Retrieved: 38582791 covers FCER1A+CD1C+ DCs (tumor). 35101945 is iPSC-derived cDC2, indirect only."
+    },
+    {
+      "run": "res_1p5",
+      "cluster": "10",
+      "label": "Platelet-like cells (very small cluster; aggregates vs ambient RNA unresolved)",
+      "confidence": "tentative",
+      "markers": [
+        "GP9",
+        "ITGA2B",
+        "PF4",
+        "TREML1",
+        "LY6G6F",
+        "GP1BA"
+      ],
+      "pmids": [
+        "30721642"
+      ],
+      "notes": "Computed (n=10): GP9 90%, PF4 90%, ITGA2B 80%, PPBP 100%, GP1BA 60%. LYZ 70%, S100A9 50% and HLA-DRA 60% co-detected; CD3D 0%. Aggregates versus ambient RNA is undistinguished. Retrieved: no PBMC platelet literature; 30721642 covers GP9/ITGA2B in isolated platelets only."
+    },
+    {
+      "run": "downsample",
+      "cluster": "0",
+      "label": "T cells (CD4/CD8 identity and naive/memory state unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D 87%, CD3E 78%, LDHB 91% (vs 47% elsewhere); CD4 10%, CD8A 10%, IL7R 66%, CCR7 38%. Inference: no CD4/CD8 or naive/memory call, so no 'CD4-like'. Retrieved: abstracts name CD3D/CD3E as T-cell genes, not LDHB. 830/852 baseline T cells recovered; 22 went to cluster 2."
+    },
+    {
+      "run": "downsample",
+      "cluster": "1",
+      "label": "CD14+ monocytes (classical-like)",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439",
+        "38936146"
+      ],
+      "notes": "Computed: S100A8, S100A9, LGALS2, FCN1, LYZ strongly enriched; CD14 65% vs 3%; FCGR3A 14%. Retrieved: abstracts link S100A8/S100A9 and CD14++ to classical monocytes, not LGALS2, FCN1 or LYZ. Baseline CD14 cells: 313/363 stayed; 29 went to cluster 5, 21 to cluster 4. The res_1.5 CD14 split is not testable at 0.6."
+    },
+    {
+      "run": "downsample",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK cells and CD8+ T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "GZMA",
+        "PRF1",
+        "GNLY",
+        "GZMB"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: NKG7 98%, GZMA 89%, PRF1 66%, GNLY 52%, GZMB 51%; CD3D 63%, CD8A 39%, GZMK 43%, KLRF1 12%. Inference: NK plus GZMK+ CD8 mixture. That split exists only at res \u22651.0, so it is not testable at 0.6. Retrieved: abstracts support NKG7/GNLY/PRF1/GZMB as cytotoxic genes, not GZMA or an NK/T split. 286/305 baseline cells recovered."
+    },
+    {
+      "run": "downsample",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A 94% vs 4%, MS4A1 86%, plus CD79B, TCL1A, BANK1, VPREB3 and MHC class II genes. Retrieved: 38770541 names CD79A and MS4A1 as B-cell markers, but in one CLL patient, so scope is limited. Naive-like state is an untested inference. Baseline B cells: 235/235 recovered."
+    },
+    {
+      "run": "downsample",
+      "cluster": "4",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "LST1"
+      ],
+      "pmids": [
+        "32810439",
+        "42889286"
+      ],
+      "notes": "Computed: FCGR3A 92% vs 14%, MS4A7, CDKN1C, LILRA3, LST1 enriched; CD14 20%, LYZ 99%; cytotoxic genes low. Retrieved: abstracts describe CD16+/non-classical monocytes but name none of these genes, so label-level support only. Tentative in every run. Baseline FCGR3A cells: 100/109 stayed; 21 baseline CD14 cells joined. Merges with CD14 monocytes at 0.3."
+    },
+    {
+      "run": "downsample",
+      "cluster": "5",
+      "label": "Dendritic cell-like (CD1C+ FCER1A+ cDC2-like; pDC admixture and doublets not excluded)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791"
+      ],
+      "notes": "Computed (29 cells, all baseline CD14 cells): FCER1A 86% vs 0.8%, CLEC10A 79%, CD1C 45%, SERPINF1 41%; CLEC4C 17%, LILRA4 14%. Median counts 4639 vs 1760-3876. Detection per cluster: CD3D 17%, CD79A 21%, NKG7 31%. Per-cell co-detection not computed, so doublets are unresolved. Retrieved: 38582791 names FCER1A+CD1C+ DCs (tumor)."
+    }
+  ],
+  "ambiguity": {
+    "investigation": "investigation_3d9c85d6023a",
+    "discussion": "Question: is the 36-cell FCER1A+ CD1C+ CLEC10A+ group (res_0p3 cluster 4) a distinct dendritic population, a pDC/cDC mixture, a multi-lineage doublet group, or a tail of the CD14 monocyte cluster?\n\nComputed, supporting a DC-like program: FCER1A is detected in 83% of cells versus 1% elsewhere. CLEC10A is 69%, CD1C 50% and SERPINF1 44%. HLA-DQA1 is 97%, and HLA-DRA is higher than in monocytes (adjusted p<1e-17). LYZ is 97% but not different from monocytes. S100A8/S100A9 and FCN1 are lower than in monocytes.\n\nComputed, mixture or doublet flags: median counts are 5297, against 1757\u20133756 in the other clusters at res_1. Median genes are 1570 and median mitochondrial fraction is 1.96%. CLEC4C is detected in 17% of cells, LILRA4 in 14% and IL3RA in 11%. CD3D is 17% (monocytes 9%, not different, adjusted p=0.53). NKG7 is 33% (monocytes 22%, adjusted p=0.78). CD79A is 17% (monocytes 4%, adjusted p=0.010). MS4A1 is 8% and CD79B 19%, against 86% and 92% in B cells.\n\nInference: a B-cell doublet-dominated group is unlikely, because MS4A1 and CD79B are low. T/NK contamination is not distinguishable from monocyte background. The high counts could reflect larger cells or some doublets. I did not compute per-cell co-detection of CD3D, CD79A and NKG7 with high counts, so doublets are unresolved. pDC admixture is plausible, but I cannot tell whether the pDC-marker cells are the same cells as the cDC2-marker cells.\n\nParameter sensitivity: the group separates at res_0p3, res_1, res_1p5 and in the 0.6 downsample (29 cells, all from the baseline CD14 cluster). It is absent from the baseline 0.6 clustering, where the same 36 cells sit inside the CD14 cluster. So the split is resolution-dependent and non-monotonic. Separation alone does not show a continuum or a distinct lineage.\n\nRetrieved support: 38582791 (title/abstract only) reports FCER1A+CD1C+ dendritic cells in tumor-progression scRNA-seq, which is indirect for PBMC. 35101945 describes CD1c/CLEC10A cDC2 subsets in iPSC-derived cells and does not mention FCER1A.\n\nUnknown: per-cell doublet status, pDC versus cDC2 composition, and donor-level replication. Keep the label tentative."
+  },
+  "report_md": "# PBMC3k clustering report (DRAFT; user review and acceptance pending)\n\nNo new tool calls were made in this writing step. Sections are tagged **Computed** (from supplied tables), **Inference** (my interpretation) and **Retrieved** (title/abstract only).\n\n## 1. Methods and QC\n**Computed.** The input was 2700 cells. 2664 passed QC and 36 were excluded. The failure counts overlap: low genes 15, high genes 5, low counts 13, high counts 5, high mitochondrial fraction 8.\n\nThresholds were chosen only after I saw the quantiles, histograms and scatter. Cuts are inclusive: genes 300-2500, counts 600-9000, mitochondrial fraction <=8%. The distributions were unimodal with no gap, so I trimmed tails only.\n\nSettings:\n- Library-size normalization to 10,000 counts, then log1p.\n- 2000 Seurat HVGs, centered/clipped scaling (max 10), 30 arpack PCs, 15 neighbors.\n- Leiden at 0.3/0.6/1.0/1.5 on one fixed graph, seed 42, baseline 0.6.\n- Downsample: 70% of QC-passing cells (1864). Gene filtering, HVGs, PCA, graph and markers were all rerun, and the sample was clustered **only at 0.6**.\n- Markers: Wilcoxon/BH on all filtered log genes. Clustering and markers use the same cells, so p-values are exploratory.\n\n**Caveats.**\n- `pca_variance.csv` shows an elbow near PC 6, and PCs 7-30 sit near a plateau (~0.002 each). The choice of 30 PCs was not tested for sensitivity.\n- My QC rationale said a 5% mitochondrial cut would remove 'about 5%' of cells. The reviewer's count is 57 cells (2.1%). That figure is not in my supplied tables, and I did not verify it.\n- There is no automatic doublet calling.\n\nArtifacts: tables in `/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/single_cell/tables/20261029T211700335443Z` (`sizes_*.csv`, `robustness_metrics.csv`, `cluster_overlaps.csv`, `pca_variance.csv`). Figures are in `.../single_cell/figures/20261029T211700335443Z`. Marker investigations are saved as `investigation_*` (for example 3d9c85d6023a, 833bca2d40fb, fdf2f7a10ed7).\n\n## 2. Resolution and downsampling\n**Computed.** The baseline has 5 clusters: T 1191, CD14 monocytes 523, cytotoxic 439, B 346, FCGR3A 165. Agreement with baseline on shared barcodes (ARI/NMI):\n\n| Run | Clusters | ARI | NMI |\n|---|---|---|---|\n| 0.3 | 5 | 0.917 | 0.909 |\n| 1.0 | 8 | 0.661 | 0.836 |\n| 1.5 | 11 | 0.523 | 0.772 |\n| Downsample 0.6 (n=1864) | 6 | 0.906 | 0.877 |\n\nQuantified changes (`cluster_overlaps.csv`):\n- **0.3 merge:** all 165 FCGR3A cells merge into the CD14 cluster (652 = 487 + 165). 36 baseline CD14 cells form their own group (the DC-like cells). 15 baseline cytotoxic cells fall in the T cluster.\n- **1.0 splits:**\n  - T becomes 625 + 548 (+18 to the GZMK+ cluster).\n  - Cytotoxic becomes 307 GZMK+/CD8A+ and 130 NK-like (+2 elsewhere).\n  - 36 CD14 cells again form the DC-like group.\n- **1.5 splits:**\n  - T becomes 509/469/202/11.\n  - CD14 becomes 250/235.\n  - Cytotoxic becomes 300 (GZMK+ CD8) and 134 (NK-like).\n  - 10 baseline FCGR3A cells form a platelet-like cluster.\n  - The 36 DC-like cells persist.\n\n**Downsample, with baseline shared cells as the denominator:**\n- B 235/235.\n- T 830/852 (22 went to the cytotoxic-like cluster).\n- Cytotoxic 286/305 (18 went to the T cluster).\n- CD14 313/363 (29 to the DC-like cluster, 21 to FCGR3A).\n- FCGR3A 100/109 (9 to CD14).\n\nOnly one draw at one resolution was run. Populations defined only at resolution >=1.0 are **not testable at 0.6**: NK-like, GZMK+ CD8, the CD14 split, platelet-like and ribosomal-high T. The downsample says nothing about whether they are real.\n\n## 3. Population summary\n\n| Population | Markers (computed) | Stable across resolutions? | Stable after downsampling? | Notes / confidence |\n|---|---|---|---|---|\n| T cells (CD4/CD8 unresolved) | CD3D, CD3E, LDHB | Lineage present in every run. Subsets (CCR7/LDHB vs IL7R/LTB; 4 clusters at 1.5) appear only at >=1.0 | 830/852 | Lineage supported. Subsets tentative |\n| B cells | CD79A, MS4A1, CD79B, TCL1A, BANK1 | Yes: 346 cells at 0.6-1.5 (347 at 0.3) | 235/235 | Supported. 'Naive-like' is untested |\n| CD14 monocytes | S100A8/9, CD14, LYZ, FCN1 | Yes. At 1.5 they split into S100-high and HLA-DR/CD68-high | 313/363. 1.5 split not testable at 0.6 | Supported. Subtype split tentative |\n| FCGR3A+ monocytes | FCGR3A, MS4A7, CDKN1C, LILRA3, CSF1R | Separate at 0.6-1.5, merged into CD14 at 0.3 | 100/109 | Tentative in all runs (see below) |\n| Cytotoxic lymphocytes, mixed | NKG7, GZMA, PRF1, GNLY | One cluster at 0.3 and 0.6 | 286/305 | Supported as a broad compartment only |\n| NK-like | GNLY, GZMB, FGFBP2, KLRD1 | 1.0 and 1.5 only (130/134) | Not testable at 0.6 | Tentative. NK identity inferred |\n| GZMK+ CD8 | GZMK, CD8A, CCL5 | 1.0 and 1.5 only (325/311) | Not testable at 0.6 | Tentative |\n| DC-like (36 cells) | FCER1A, CLEC10A, CD1C, SERPINF1 | Separate at 0.3, 1.0, 1.5 and in the downsample. Absent at baseline 0.6 | 29 cells, all baseline CD14 | Tentative. Non-monotonic |\n| Platelet-like (10 cells) | PPBP, PF4, GP9, ITGA2B | 1.5 only | Not testable at 0.6 | Tentative |\n| Ribosomal-high T (206) | Ribosomal genes, CD3D, IL32 | 1.5 only | Not testable at 0.6 | Tentative. Median 590 genes, so a low-RNA effect is possible |\n\n**FCGR3A+ monocytes: one rationale for all runs.**\n- *Computed:* FCGR3A is detected in 91% of cells vs 14% elsewhere, with MS4A7, CDKN1C, LILRA3 and CSF1R enriched. The group merges into CD14 monocytes at 0.3.\n- *Retrieved:* the abstracts support only the label (CD16+ or non-classical monocytes), and none names these genes.\n- *Decision:* the label is tentative in every run.\n\n**NK-like and GZMK+ CD8** are tentative wherever they appear. The split exists only at >=1.0, and the abstracts do not support it.\n\n**T cells.**\n- In baseline T cells, CD4 is detected in ~10% and CD8A in ~11%. IL7R is 66% and CCR7 36% in the near-identical 0.3 cluster.\n- Sparse detection cannot establish CD4 predominance. I **withdraw 'CD4-like predominant'**. The stale label persists in `population_stability.csv` and should be edited.\n- At 1.5, the IL7R+/LTB+ cluster is modestly CD4-leaning (CD4 15% vs 6.8%, CD8A depleted). That is only a hypothesis.\n- The CCR7/LDHB split at 1.0 is led by ribosomal genes and MALAT1. 'Naive-like' is an inference.\n\n## 4. Ambiguity: the 36-cell DC-like group\n**Computed.**\n- FCER1A is detected in 83% of cells vs ~1% elsewhere. CLEC10A is 69%, CD1C 50% and SERPINF1 44%.\n- CLEC4C (17%), LILRA4 (14%) and IL3RA (11%) are also detected.\n- HLA-DRA is higher than in monocytes. S100A8/S100A9 and FCN1 are lower.\n- Median counts are 5297, against 1757-3756 in the other res_1 clusters. Median genes are 1570.\n\n**Doublet check.** QC.md promised a multi-lineage co-expression check. **Per-cell co-detection of CD3D, CD79A and NKG7 with high counts was not done.** Only per-cluster detection exists:\n- CD3D 17%, similar to monocytes (9%, adjusted p=0.53).\n- NKG7 33% (monocytes 22%, adjusted p=0.78).\n- CD79A 17% (monocytes 4%, adjusted p=0.010).\n- MS4A1 8% and CD79B 19%, against 86% and 92% in B cells.\n\n**Inference.**\n- A B-cell doublet group is unlikely.\n- T/NK contamination cannot be separated from monocyte background.\n- The high counts may reflect larger cells or some doublets.\n- Whether the pDC-marker cells are the same cells as the cDC2-marker cells is unknown.\n\nThe group separates at 0.3, 1.0, 1.5 and in the downsample (29 cells, all baseline CD14), but not at baseline 0.6. That is a parameter-dependent split. It does not demonstrate a distinct lineage or a continuum. I did not test whether the 29 downsample cells overlap the 36.\n\n## 5. Platelet-like cluster (res 1.5, n=10)\n**Computed.**\n- PPBP is detected in 100% of cells, PF4 in 90%, GP9 in 90%, ITGA2B in 80% and GP1BA in 60%.\n- PPBP is detected in <=7% of cells in every other cluster.\n- LYZ is detected in 70% (mean log 2.2, versus ~5.0 in monocyte clusters), S100A9 in 50%, S100A8 in 40% and HLA-DRA in 60%.\n- CD3D is 0%. Median genes are 550 and median counts 1264.\n- The 10 cells come from the baseline FCGR3A cluster (10/165). The baseline FCGR3A+ monocyte cluster therefore contains platelet-like cells.\n\n**Inference.** The data strongly support a platelet-gene program. The myeloid co-detection is compatible with platelet-monocyte aggregates or with contaminating myeloid transcripts. Uniform ambient RNA alone fits poorly, because platelet genes are near-absent in other clusters. I cannot separate aggregates from ambient RNA.\n\n**Retrieved.** No PBMC platelet literature was retrieved. That is a literature gap, not evidence against the identity. PMID 30721642 covers GP9/ITGA2B/PF4V1 in isolated platelets at high altitude. PMID 34616175 is an osteoarthritis/metabolic-syndrome biomarker study and is **not** platelet cell-marker evidence, so I removed it. Identity is tentative because n=10 and the cluster is not testable at 0.6.\n\n## 6. Retrieved support (title/abstract only; none validates a label)\n- **T cells:** 42771562 (gastric cancer) lists CD3D/CD3E among T-cell markers. 37942472 (peritoneal dialysis) places CD3D/CD3E/CD2 in T-cell pathways. Neither covers LDHB, IL7R or CCR7.\n- **B cells:** 38770541 is a single CLL patient. B-cell phenotypic markers, including CD79A and MS4A1, are dysregulated there. This is weak support.\n- **Monocytes:**\n  - 42004243 reports S100A8/S100A9 upregulation in classical monocytes after radiotherapy.\n  - 38936146 reports higher S100A8/S100A9 in VNN2+ monocytes.\n  - 32810439 reports calprotectin release and loss of non-classical monocytes in COVID-19.\n  - All three are disease-context and indirect.\n- **FCGR3A+ monocytes:** 42889286 and 42794611 use CD16+/FCGR3A+ monocyte labels only. 42794611 does not mention S100A8 or S100A9. 42868142 also gives labels without markers, so I do not rely on it. None of these supports MS4A7, CDKN1C or LILRA3.\n- **Cytotoxic cells:**\n  - 40538191 supports NKG7 as a general cytotoxicity marker.\n  - 42682208 and 39074350 show GNLY/NKG7/GZMB/PRF1 in NK and CD8 T cells.\n  - 42609202 shows the same genes in cytotoxic CD4+ T cells, so they are not NK-specific.\n  - 37898694 is bulk UC/NASH hub-gene work and gives only weak CD8A/NKG7 support. GZMK is unsupported.\n- **DC-like:** 38582791 describes FCER1A+CD1C+ DCs in tumor, which is indirect for PBMC. 35101945 describes iPSC-derived CD1c/CLEC10A cDC2 subsets and does not mention FCER1A, so I downgraded it to indirect context.\n\nCanonical identities such as LYZ/S100A8/S100A9 monocytes rest mainly on prior knowledge, not on these abstracts.\n\n## 7. Robust vs sensitive\n**Robust (present in every run):**\n- The T-lineage cluster (a minor leak of cells to or from the cytotoxic cluster).\n- B cells.\n- The monocyte/myeloid compartment (CD14 + FCGR3A together).\n- The NKG7+ cytotoxic compartment.\n\n**Sensitive (resolution- or draw-dependent):**\n- FCGR3A monocytes as a separate cluster (merged at 0.3).\n- The DC-like group (absent at baseline 0.6).\n- The NK vs GZMK+ CD8 split.\n- T-cell and CD14 subsets.\n- Platelet-like cells.\n- Ribosomal-high T cells.\n\nThe label-agreement columns of `population_stability.csv` compare exact label strings (B cells score 0.0 at res_1 and res_1p5 despite identical membership). I did not use them, and I have not inspected the rendered label-agreement table.\n\n## 8. Agent Audit\n- **Done this revision:**\n  - Corrected downsample denominators.\n  - Replaced 'not separated' with 'not testable at 0.6'.\n  - Made confidence consistent.\n  - Removed the CD4-like claim.\n  - Rechecked PMIDs against abstract text.\n  - Reported the platelet marker detection.\n  - Stated that the doublet co-detection check was not done.\n- **Evidence gaps:**\n  - No per-cell doublet or co-detection analysis.\n  - No overlap test of the 29 downsample DC-like cells with the 36.\n  - No pDC vs cDC2 resolution.\n  - No platelet aggregate vs ambient test.\n  - No PC-number sensitivity.\n  - No multiple seeds or draws, and no downsample at 1.0 or 1.5.\n  - No donor-level validation (single sample).\n  - No protein or independent validation.\n- **Human review is required** for all labels. Any further doublet calling or ambient correction would need a software extension.\n"
+}

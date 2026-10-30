@@ -1,0 +1,11 @@
+{
+  "candidates": 200,
+  "selection": "Top expression-only Seurat normalized dispersions; gene-name tie break; frozen before spatial analysis",
+  "expression": "Library normalization after gene filtering, log1p; not scaled expression",
+  "moran": "I = N/S0 * sum_ij(w_ij (x_i-mean)(x_j-mean)) / sum_i((x_i-mean)^2); binary weights, isolates excluded",
+  "de": "Tie-corrected Kruskal\u2013Wallis H across frozen clusters; all retained spots. No inferential p-values because clusters were expression-derived.",
+  "examples": "Strong = top quartile of defined ranks; weaker = below median. Average ranks for ties; missing categories retained.",
+  "gene_inference": "Descriptive ranking only; label-permutation control does not test individual genes",
+  "confound_checks": "Per-gene Spearman correlations with raw library size and mitochondrial fraction; QC tissue maps",
+  "de_caveat": "Small clusters and expression-derived group selection limit inference; no claim of independent DE confirmation"
+}

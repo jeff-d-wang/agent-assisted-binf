@@ -1,0 +1,1319 @@
+{
+  "run_name": "res_1",
+  "cluster": "0",
+  "other_cluster": "1",
+  "genes": [
+    "CD3D",
+    "CD3E",
+    "CD4",
+    "CD8A",
+    "IL7R",
+    "CCR7",
+    "SELL",
+    "LEF1",
+    "TCF7",
+    "S100A4",
+    "CD40LG",
+    "FOXP3"
+  ],
+  "missing_genes": [],
+  "expression": [
+    {
+      "cluster": "0",
+      "gene": "CD3D",
+      "n_cells": 625,
+      "mean_log_expression": 2.059882402420044,
+      "detection_fraction": 0.848
+    },
+    {
+      "cluster": "0",
+      "gene": "CD3E",
+      "n_cells": 625,
+      "mean_log_expression": 1.6247060298919678,
+      "detection_fraction": 0.7216
+    },
+    {
+      "cluster": "0",
+      "gene": "CD4",
+      "n_cells": 625,
+      "mean_log_expression": 0.11649724096059799,
+      "detection_fraction": 0.0672
+    },
+    {
+      "cluster": "0",
+      "gene": "CD8A",
+      "n_cells": 625,
+      "mean_log_expression": 0.31214603781700134,
+      "detection_fraction": 0.1584
+    },
+    {
+      "cluster": "0",
+      "gene": "IL7R",
+      "n_cells": 625,
+      "mean_log_expression": 1.281869649887085,
+      "detection_fraction": 0.5776
+    },
+    {
+      "cluster": "0",
+      "gene": "CCR7",
+      "n_cells": 625,
+      "mean_log_expression": 0.9087931513786316,
+      "detection_fraction": 0.4608
+    },
+    {
+      "cluster": "0",
+      "gene": "SELL",
+      "n_cells": 625,
+      "mean_log_expression": 1.2534421682357788,
+      "detection_fraction": 0.5968
+    },
+    {
+      "cluster": "0",
+      "gene": "LEF1",
+      "n_cells": 625,
+      "mean_log_expression": 0.6528384685516357,
+      "detection_fraction": 0.344
+    },
+    {
+      "cluster": "0",
+      "gene": "TCF7",
+      "n_cells": 625,
+      "mean_log_expression": 0.6860803961753845,
+      "detection_fraction": 0.3664
+    },
+    {
+      "cluster": "0",
+      "gene": "S100A4",
+      "n_cells": 625,
+      "mean_log_expression": 1.615584373474121,
+      "detection_fraction": 0.672
+    },
+    {
+      "cluster": "0",
+      "gene": "CD40LG",
+      "n_cells": 625,
+      "mean_log_expression": 0.23445209860801697,
+      "detection_fraction": 0.1328
+    },
+    {
+      "cluster": "0",
+      "gene": "FOXP3",
+      "n_cells": 625,
+      "mean_log_expression": 0.011013118550181389,
+      "detection_fraction": 0.0064
+    },
+    {
+      "cluster": "1",
+      "gene": "CD3D",
+      "n_cells": 550,
+      "mean_log_expression": 2.2088756561279297,
+      "detection_fraction": 0.9072727272727272
+    },
+    {
+      "cluster": "1",
+      "gene": "CD3E",
+      "n_cells": 550,
+      "mean_log_expression": 1.7917531728744507,
+      "detection_fraction": 0.8145454545454546
+    },
+    {
+      "cluster": "1",
+      "gene": "CD4",
+      "n_cells": 550,
+      "mean_log_expression": 0.23740190267562866,
+      "detection_fraction": 0.14909090909090908
+    },
+    {
+      "cluster": "1",
+      "gene": "CD8A",
+      "n_cells": 550,
+      "mean_log_expression": 0.1166333258152008,
+      "detection_fraction": 0.06545454545454546
+    },
+    {
+      "cluster": "1",
+      "gene": "IL7R",
+      "n_cells": 550,
+      "mean_log_expression": 1.6923331022262573,
+      "detection_fraction": 0.76
+    },
+    {
+      "cluster": "1",
+      "gene": "CCR7",
+      "n_cells": 550,
+      "mean_log_expression": 0.4417690336704254,
+      "detection_fraction": 0.2545454545454545
+    },
+    {
+      "cluster": "1",
+      "gene": "SELL",
+      "n_cells": 550,
+      "mean_log_expression": 1.0626485347747803,
+      "detection_fraction": 0.5236363636363637
+    },
+    {
+      "cluster": "1",
+      "gene": "LEF1",
+      "n_cells": 550,
+      "mean_log_expression": 0.5026829838752747,
+      "detection_fraction": 0.2909090909090909
+    },
+    {
+      "cluster": "1",
+      "gene": "TCF7",
+      "n_cells": 550,
+      "mean_log_expression": 0.6726706624031067,
+      "detection_fraction": 0.3781818181818182
+    },
+    {
+      "cluster": "1",
+      "gene": "S100A4",
+      "n_cells": 550,
+      "mean_log_expression": 2.8866140842437744,
+      "detection_fraction": 0.9418181818181818
+    },
+    {
+      "cluster": "1",
+      "gene": "CD40LG",
+      "n_cells": 550,
+      "mean_log_expression": 0.5028385519981384,
+      "detection_fraction": 0.2872727272727273
+    },
+    {
+      "cluster": "1",
+      "gene": "FOXP3",
+      "n_cells": 550,
+      "mean_log_expression": 0.016468379646539688,
+      "detection_fraction": 0.01090909090909091
+    },
+    {
+      "cluster": "2",
+      "gene": "CD3D",
+      "n_cells": 483,
+      "mean_log_expression": 0.15527287125587463,
+      "detection_fraction": 0.09316770186335403
+    },
+    {
+      "cluster": "2",
+      "gene": "CD3E",
+      "n_cells": 483,
+      "mean_log_expression": 0.16085726022720337,
+      "detection_fraction": 0.09730848861283643
+    },
+    {
+      "cluster": "2",
+      "gene": "CD4",
+      "n_cells": 483,
+      "mean_log_expression": 0.4357301592826843,
+      "detection_fraction": 0.2484472049689441
+    },
+    {
+      "cluster": "2",
+      "gene": "CD8A",
+      "n_cells": 483,
+      "mean_log_expression": 0.03013019822537899,
+      "detection_fraction": 0.018633540372670808
+    },
+    {
+      "cluster": "2",
+      "gene": "IL7R",
+      "n_cells": 483,
+      "mean_log_expression": 0.19112886488437653,
+      "detection_fraction": 0.12008281573498965
+    },
+    {
+      "cluster": "2",
+      "gene": "CCR7",
+      "n_cells": 483,
+      "mean_log_expression": 0.03984227776527405,
+      "detection_fraction": 0.024844720496894408
+    },
+    {
+      "cluster": "2",
+      "gene": "SELL",
+      "n_cells": 483,
+      "mean_log_expression": 0.577389121055603,
+      "detection_fraction": 0.32298136645962733
+    },
+    {
+      "cluster": "2",
+      "gene": "LEF1",
+      "n_cells": 483,
+      "mean_log_expression": 0.08684656769037247,
+      "detection_fraction": 0.053830227743271224
+    },
+    {
+      "cluster": "2",
+      "gene": "TCF7",
+      "n_cells": 483,
+      "mean_log_expression": 0.15857309103012085,
+      "detection_fraction": 0.09937888198757763
+    },
+    {
+      "cluster": "2",
+      "gene": "S100A4",
+      "n_cells": 483,
+      "mean_log_expression": 4.131412029266357,
+      "detection_fraction": 1.0
+    },
+    {
+      "cluster": "2",
+      "gene": "CD40LG",
+      "n_cells": 483,
+      "mean_log_expression": 0.03215751051902771,
+      "detection_fraction": 0.018633540372670808
+    },
+    {
+      "cluster": "2",
+      "gene": "FOXP3",
+      "n_cells": 483,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "3",
+      "gene": "CD3D",
+      "n_cells": 346,
+      "mean_log_expression": 0.10296282172203064,
+      "detection_fraction": 0.05491329479768786
+    },
+    {
+      "cluster": "3",
+      "gene": "CD3E",
+      "n_cells": 346,
+      "mean_log_expression": 0.1884954422712326,
+      "detection_fraction": 0.1069364161849711
+    },
+    {
+      "cluster": "3",
+      "gene": "CD4",
+      "n_cells": 346,
+      "mean_log_expression": 0.023324575275182724,
+      "detection_fraction": 0.014450867052023121
+    },
+    {
+      "cluster": "3",
+      "gene": "CD8A",
+      "n_cells": 346,
+      "mean_log_expression": 0.04567525163292885,
+      "detection_fraction": 0.02601156069364162
+    },
+    {
+      "cluster": "3",
+      "gene": "IL7R",
+      "n_cells": 346,
+      "mean_log_expression": 0.20861025154590607,
+      "detection_fraction": 0.11271676300578035
+    },
+    {
+      "cluster": "3",
+      "gene": "CCR7",
+      "n_cells": 346,
+      "mean_log_expression": 0.3161981999874115,
+      "detection_fraction": 0.15895953757225434
+    },
+    {
+      "cluster": "3",
+      "gene": "SELL",
+      "n_cells": 346,
+      "mean_log_expression": 1.2581387758255005,
+      "detection_fraction": 0.569364161849711
+    },
+    {
+      "cluster": "3",
+      "gene": "LEF1",
+      "n_cells": 346,
+      "mean_log_expression": 0.042740847915410995,
+      "detection_fraction": 0.02601156069364162
+    },
+    {
+      "cluster": "3",
+      "gene": "TCF7",
+      "n_cells": 346,
+      "mean_log_expression": 0.16668486595153809,
+      "detection_fraction": 0.09248554913294797
+    },
+    {
+      "cluster": "3",
+      "gene": "S100A4",
+      "n_cells": 346,
+      "mean_log_expression": 0.7299463152885437,
+      "detection_fraction": 0.35260115606936415
+    },
+    {
+      "cluster": "3",
+      "gene": "CD40LG",
+      "n_cells": 346,
+      "mean_log_expression": 0.03216252103447914,
+      "detection_fraction": 0.017341040462427744
+    },
+    {
+      "cluster": "3",
+      "gene": "FOXP3",
+      "n_cells": 346,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "4",
+      "gene": "CD3D",
+      "n_cells": 325,
+      "mean_log_expression": 2.1950271129608154,
+      "detection_fraction": 0.8369230769230769
+    },
+    {
+      "cluster": "4",
+      "gene": "CD3E",
+      "n_cells": 325,
+      "mean_log_expression": 1.6742253303527832,
+      "detection_fraction": 0.7353846153846154
+    },
+    {
+      "cluster": "4",
+      "gene": "CD4",
+      "n_cells": 325,
+      "mean_log_expression": 0.048794157803058624,
+      "detection_fraction": 0.027692307692307693
+    },
+    {
+      "cluster": "4",
+      "gene": "CD8A",
+      "n_cells": 325,
+      "mean_log_expression": 0.9834542274475098,
+      "detection_fraction": 0.4584615384615385
+    },
+    {
+      "cluster": "4",
+      "gene": "IL7R",
+      "n_cells": 325,
+      "mean_log_expression": 1.140051245689392,
+      "detection_fraction": 0.48
+    },
+    {
+      "cluster": "4",
+      "gene": "CCR7",
+      "n_cells": 325,
+      "mean_log_expression": 0.06792978942394257,
+      "detection_fraction": 0.04
+    },
+    {
+      "cluster": "4",
+      "gene": "SELL",
+      "n_cells": 325,
+      "mean_log_expression": 0.6936923265457153,
+      "detection_fraction": 0.32
+    },
+    {
+      "cluster": "4",
+      "gene": "LEF1",
+      "n_cells": 325,
+      "mean_log_expression": 0.09362898766994476,
+      "detection_fraction": 0.052307692307692305
+    },
+    {
+      "cluster": "4",
+      "gene": "TCF7",
+      "n_cells": 325,
+      "mean_log_expression": 0.3403843939304352,
+      "detection_fraction": 0.18461538461538463
+    },
+    {
+      "cluster": "4",
+      "gene": "S100A4",
+      "n_cells": 325,
+      "mean_log_expression": 2.9682013988494873,
+      "detection_fraction": 0.9384615384615385
+    },
+    {
+      "cluster": "4",
+      "gene": "CD40LG",
+      "n_cells": 325,
+      "mean_log_expression": 0.10358147323131561,
+      "detection_fraction": 0.055384615384615386
+    },
+    {
+      "cluster": "4",
+      "gene": "FOXP3",
+      "n_cells": 325,
+      "mean_log_expression": 0.003938537091016769,
+      "detection_fraction": 0.003076923076923077
+    },
+    {
+      "cluster": "5",
+      "gene": "CD3D",
+      "n_cells": 169,
+      "mean_log_expression": 0.1104869470000267,
+      "detection_fraction": 0.07692307692307693
+    },
+    {
+      "cluster": "5",
+      "gene": "CD3E",
+      "n_cells": 169,
+      "mean_log_expression": 0.19669264554977417,
+      "detection_fraction": 0.13609467455621302
+    },
+    {
+      "cluster": "5",
+      "gene": "CD4",
+      "n_cells": 169,
+      "mean_log_expression": 0.35889196395874023,
+      "detection_fraction": 0.25443786982248523
+    },
+    {
+      "cluster": "5",
+      "gene": "CD8A",
+      "n_cells": 169,
+      "mean_log_expression": 0.04320794343948364,
+      "detection_fraction": 0.03550295857988166
+    },
+    {
+      "cluster": "5",
+      "gene": "IL7R",
+      "n_cells": 169,
+      "mean_log_expression": 0.1903248429298401,
+      "detection_fraction": 0.14201183431952663
+    },
+    {
+      "cluster": "5",
+      "gene": "CCR7",
+      "n_cells": 169,
+      "mean_log_expression": 0.06329219788312912,
+      "detection_fraction": 0.047337278106508875
+    },
+    {
+      "cluster": "5",
+      "gene": "SELL",
+      "n_cells": 169,
+      "mean_log_expression": 0.4215744435787201,
+      "detection_fraction": 0.28994082840236685
+    },
+    {
+      "cluster": "5",
+      "gene": "LEF1",
+      "n_cells": 169,
+      "mean_log_expression": 0.0501554012298584,
+      "detection_fraction": 0.03550295857988166
+    },
+    {
+      "cluster": "5",
+      "gene": "TCF7",
+      "n_cells": 169,
+      "mean_log_expression": 0.21113941073417664,
+      "detection_fraction": 0.16568047337278108
+    },
+    {
+      "cluster": "5",
+      "gene": "S100A4",
+      "n_cells": 169,
+      "mean_log_expression": 4.0954084396362305,
+      "detection_fraction": 0.9763313609467456
+    },
+    {
+      "cluster": "5",
+      "gene": "CD40LG",
+      "n_cells": 169,
+      "mean_log_expression": 0.015916388481855392,
+      "detection_fraction": 0.011834319526627219
+    },
+    {
+      "cluster": "5",
+      "gene": "FOXP3",
+      "n_cells": 169,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "6",
+      "gene": "CD3D",
+      "n_cells": 130,
+      "mean_log_expression": 0.14534343779087067,
+      "detection_fraction": 0.06923076923076923
+    },
+    {
+      "cluster": "6",
+      "gene": "CD3E",
+      "n_cells": 130,
+      "mean_log_expression": 0.7181500792503357,
+      "detection_fraction": 0.3384615384615385
+    },
+    {
+      "cluster": "6",
+      "gene": "CD4",
+      "n_cells": 130,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "6",
+      "gene": "CD8A",
+      "n_cells": 130,
+      "mean_log_expression": 0.14691264927387238,
+      "detection_fraction": 0.07692307692307693
+    },
+    {
+      "cluster": "6",
+      "gene": "IL7R",
+      "n_cells": 130,
+      "mean_log_expression": 0.18922746181488037,
+      "detection_fraction": 0.1
+    },
+    {
+      "cluster": "6",
+      "gene": "CCR7",
+      "n_cells": 130,
+      "mean_log_expression": 0.03215017169713974,
+      "detection_fraction": 0.023076923076923078
+    },
+    {
+      "cluster": "6",
+      "gene": "SELL",
+      "n_cells": 130,
+      "mean_log_expression": 1.1633141040802002,
+      "detection_fraction": 0.5153846153846153
+    },
+    {
+      "cluster": "6",
+      "gene": "LEF1",
+      "n_cells": 130,
+      "mean_log_expression": 0.054018959403038025,
+      "detection_fraction": 0.03076923076923077
+    },
+    {
+      "cluster": "6",
+      "gene": "TCF7",
+      "n_cells": 130,
+      "mean_log_expression": 0.109365314245224,
+      "detection_fraction": 0.06153846153846154
+    },
+    {
+      "cluster": "6",
+      "gene": "S100A4",
+      "n_cells": 130,
+      "mean_log_expression": 3.063265323638916,
+      "detection_fraction": 0.9615384615384616
+    },
+    {
+      "cluster": "6",
+      "gene": "CD40LG",
+      "n_cells": 130,
+      "mean_log_expression": 0.011974732391536236,
+      "detection_fraction": 0.007692307692307693
+    },
+    {
+      "cluster": "6",
+      "gene": "FOXP3",
+      "n_cells": 130,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "7",
+      "gene": "CD3D",
+      "n_cells": 36,
+      "mean_log_expression": 0.17662353813648224,
+      "detection_fraction": 0.16666666666666666
+    },
+    {
+      "cluster": "7",
+      "gene": "CD3E",
+      "n_cells": 36,
+      "mean_log_expression": 0.17081326246261597,
+      "detection_fraction": 0.1388888888888889
+    },
+    {
+      "cluster": "7",
+      "gene": "CD4",
+      "n_cells": 36,
+      "mean_log_expression": 0.47797733545303345,
+      "detection_fraction": 0.3333333333333333
+    },
+    {
+      "cluster": "7",
+      "gene": "CD8A",
+      "n_cells": 36,
+      "mean_log_expression": 0.027467096224427223,
+      "detection_fraction": 0.027777777777777776
+    },
+    {
+      "cluster": "7",
+      "gene": "IL7R",
+      "n_cells": 36,
+      "mean_log_expression": 0.42251020669937134,
+      "detection_fraction": 0.3333333333333333
+    },
+    {
+      "cluster": "7",
+      "gene": "CCR7",
+      "n_cells": 36,
+      "mean_log_expression": 0.0786537304520607,
+      "detection_fraction": 0.08333333333333333
+    },
+    {
+      "cluster": "7",
+      "gene": "SELL",
+      "n_cells": 36,
+      "mean_log_expression": 0.9732680916786194,
+      "detection_fraction": 0.6111111111111112
+    },
+    {
+      "cluster": "7",
+      "gene": "LEF1",
+      "n_cells": 36,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    },
+    {
+      "cluster": "7",
+      "gene": "TCF7",
+      "n_cells": 36,
+      "mean_log_expression": 0.1922292858362198,
+      "detection_fraction": 0.16666666666666666
+    },
+    {
+      "cluster": "7",
+      "gene": "S100A4",
+      "n_cells": 36,
+      "mean_log_expression": 3.2031378746032715,
+      "detection_fraction": 0.9444444444444444
+    },
+    {
+      "cluster": "7",
+      "gene": "CD40LG",
+      "n_cells": 36,
+      "mean_log_expression": 0.027010194957256317,
+      "detection_fraction": 0.027777777777777776
+    },
+    {
+      "cluster": "7",
+      "gene": "FOXP3",
+      "n_cells": 36,
+      "mean_log_expression": 0.0,
+      "detection_fraction": 0.0
+    }
+  ],
+  "pairwise": [
+    {
+      "names": "MALAT1",
+      "scores": 12.582326889,
+      "logfoldchanges": 0.4583300352,
+      "pvals": 2.641327548e-36,
+      "pvals_adj": 1.202508388e-32,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "RPL32",
+      "scores": 11.1388635635,
+      "logfoldchanges": 0.3102512658,
+      "pvals": 8.114814086e-29,
+      "pvals_adj": 1.84720218e-25,
+      "pct_nz_group": 0.9984
+    },
+    {
+      "names": "RPS27",
+      "scores": 9.7800807953,
+      "logfoldchanges": 0.257031858,
+      "pvals": 1.371006216e-22,
+      "pvals_adj": 1.337514493e-19,
+      "pct_nz_group": 0.9984
+    },
+    {
+      "names": "RPL13",
+      "scores": 9.5807390213,
+      "logfoldchanges": 0.2583408058,
+      "pvals": 9.635307077e-22,
+      "pvals_adj": 8.77326827e-19,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "RPS3A",
+      "scores": 9.5264673233,
+      "logfoldchanges": 0.3850746453,
+      "pvals": 1.627266417e-21,
+      "pvals_adj": 1.352567539e-18,
+      "pct_nz_group": 0.9936
+    },
+    {
+      "names": "RPL21",
+      "scores": 9.4533290863,
+      "logfoldchanges": 0.2681471109,
+      "pvals": 3.282214278e-21,
+      "pvals_adj": 2.359393822e-18,
+      "pct_nz_group": 0.9936
+    },
+    {
+      "names": "RPS6",
+      "scores": 8.9842634201,
+      "logfoldchanges": 0.2493358403,
+      "pvals": 2.604734683e-19,
+      "pvals_adj": 1.368287165e-16,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "RPL31",
+      "scores": 8.6858530045,
+      "logfoldchanges": 0.288711518,
+      "pvals": 3.759092667e-18,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.9968
+    },
+    {
+      "names": "RPL9",
+      "scores": 8.6141796112,
+      "logfoldchanges": 0.2940262258,
+      "pvals": 7.044402922e-18,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.9968
+    },
+    {
+      "names": "CCR7",
+      "scores": 8.5098390579,
+      "logfoldchanges": 1.4151437283,
+      "pvals": 1.741755883e-17,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.4608
+    },
+    {
+      "names": "RPS23",
+      "scores": 8.4789304733,
+      "logfoldchanges": 0.2533399165,
+      "pvals": 2.272730598e-17,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.9984
+    },
+    {
+      "names": "RPLP2",
+      "scores": 8.2629623413,
+      "logfoldchanges": 0.2385079563,
+      "pvals": 1.421012981e-16,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.9984
+    },
+    {
+      "names": "RPS12",
+      "scores": 8.1385669708,
+      "logfoldchanges": 0.2336716354,
+      "pvals": 3.999834787e-16,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "RPS16",
+      "scores": 7.5114235878,
+      "logfoldchanges": 0.2428312451,
+      "pvals": 0.0,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 0.9968
+    },
+    {
+      "names": "RPS14",
+      "scores": 7.4415588379,
+      "logfoldchanges": 0.225843966,
+      "pvals": 0.0,
+      "pvals_adj": 0.0,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "ALOX5AP",
+      "scores": -9.2767734528,
+      "logfoldchanges": -1.7903165817,
+      "pvals": 1.746888314e-20,
+      "pvals_adj": 1.136142885e-17,
+      "pct_nz_group": 0.1392
+    },
+    {
+      "names": "TMSB4X",
+      "scores": -9.4051733017,
+      "logfoldchanges": -0.2703303993,
+      "pvals": 5.194473009e-21,
+      "pvals_adj": 3.547305618e-18,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "S100A6",
+      "scores": -9.5169963837,
+      "logfoldchanges": -1.0392057896,
+      "pvals": 1.782560821e-21,
+      "pvals_adj": 1.352567539e-18,
+      "pct_nz_group": 0.6816
+    },
+    {
+      "names": "CLIC1",
+      "scores": -9.5211277008,
+      "logfoldchanges": -1.3873581886,
+      "pvals": 1.71309485e-21,
+      "pvals_adj": 1.352567539e-18,
+      "pct_nz_group": 0.344
+    },
+    {
+      "names": "ACTB",
+      "scores": -9.9359207153,
+      "logfoldchanges": -0.569229424,
+      "pvals": 2.904790042e-23,
+      "pvals_adj": 3.051817107e-20,
+      "pct_nz_group": 0.9904
+    },
+    {
+      "names": "ANXA2",
+      "scores": -10.0590353012,
+      "logfoldchanges": -1.8023551702,
+      "pvals": 8.381542169e-24,
+      "pvals_adj": 9.539591912e-21,
+      "pct_nz_group": 0.1648
+    },
+    {
+      "names": "SRGN",
+      "scores": -10.1600809097,
+      "logfoldchanges": -1.5158212185,
+      "pvals": 2.988276174e-24,
+      "pvals_adj": 3.710352362e-21,
+      "pct_nz_group": 0.3136
+    },
+    {
+      "names": "LTB",
+      "scores": -10.1623392105,
+      "logfoldchanges": -0.9265889525,
+      "pvals": 2.919859733e-24,
+      "pvals_adj": 3.710352362e-21,
+      "pct_nz_group": 0.8944
+    },
+    {
+      "names": "IL32",
+      "scores": -10.2562589645,
+      "logfoldchanges": -1.0946023464,
+      "pvals": 1.109208391e-24,
+      "pvals_adj": 1.683285356e-21,
+      "pct_nz_group": 0.7648
+    },
+    {
+      "names": "TNFRSF4",
+      "scores": -10.3117723465,
+      "logfoldchanges": -3.4452400208,
+      "pvals": 6.234088108e-25,
+      "pvals_adj": 1.064314692e-21,
+      "pct_nz_group": 0.024
+    },
+    {
+      "names": "VIM",
+      "scores": -10.7866640091,
+      "logfoldchanges": -1.021617651,
+      "pvals": 3.979745903e-27,
+      "pvals_adj": 7.765052793e-24,
+      "pct_nz_group": 0.8112
+    },
+    {
+      "names": "ANXA1",
+      "scores": -11.2083129883,
+      "logfoldchanges": -1.4903544188,
+      "pvals": 3.712010433e-29,
+      "pvals_adj": 1.01397277e-25,
+      "pct_nz_group": 0.4832
+    },
+    {
+      "names": "S100A11",
+      "scores": -12.0791473389,
+      "logfoldchanges": -1.9226835966,
+      "pvals": 1.361233381e-33,
+      "pvals_adj": 4.647931379e-30,
+      "pct_nz_group": 0.2528
+    },
+    {
+      "names": "B2M",
+      "scores": -15.0032911301,
+      "logfoldchanges": -0.4221418202,
+      "pvals": 6.98668986e-51,
+      "pvals_adj": 4.771210505e-47,
+      "pct_nz_group": 1.0
+    },
+    {
+      "names": "S100A4",
+      "scores": -17.2780323029,
+      "logfoldchanges": -2.070646286,
+      "pvals": 6.885822431e-67,
+      "pvals_adj": 9.404656276e-63,
+      "pct_nz_group": 0.672
+    },
+    {
+      "names": "CD8A",
+      "scores": 5.0866718292,
+      "logfoldchanges": 1.5663081408,
+      "pvals": 3.644e-07,
+      "pvals_adj": 3.21097e-05,
+      "pct_nz_group": 0.1584
+    },
+    {
+      "names": "SELL",
+      "scores": 3.1688189507,
+      "logfoldchanges": 0.4018439054,
+      "pvals": 0.0015305975,
+      "pvals_adj": 0.0311548449,
+      "pct_nz_group": 0.5968
+    },
+    {
+      "names": "LEF1",
+      "scores": 2.888210535,
+      "logfoldchanges": 0.495762825,
+      "pvals": 0.0038744047,
+      "pvals_adj": 0.0596579704,
+      "pct_nz_group": 0.344
+    },
+    {
+      "names": "TCF7",
+      "scores": 0.5134142041,
+      "logfoldchanges": 0.0392373316,
+      "pvals": 0.6076616048,
+      "pvals_adj": 0.8584452137,
+      "pct_nz_group": 0.3664
+    },
+    {
+      "names": "FOXP3",
+      "scores": -0.8327234983,
+      "logfoldchanges": -0.5844196081,
+      "pvals": 0.4050006747,
+      "pvals_adj": 0.7033056853,
+      "pct_nz_group": 0.0064
+    },
+    {
+      "names": "CD3E",
+      "scores": -1.656938076,
+      "logfoldchanges": -0.2944352925,
+      "pvals": 0.0975319848,
+      "pvals_adj": 0.407492153,
+      "pct_nz_group": 0.7216
+    },
+    {
+      "names": "CD3D",
+      "scores": -1.9274736643,
+      "logfoldchanges": -0.2438359261,
+      "pvals": 0.0539206322,
+      "pvals_adj": 0.3058338847,
+      "pct_nz_group": 0.848
+    },
+    {
+      "names": "CD4",
+      "scores": -4.3790779114,
+      "logfoldchanges": -1.1168204546,
+      "pvals": 1.19183e-05,
+      "pvals_adj": 0.0006839481,
+      "pct_nz_group": 0.0672
+    },
+    {
+      "names": "IL7R",
+      "scores": -5.4473719597,
+      "logfoldchanges": -0.7676227093,
+      "pvals": 5.11e-08,
+      "pvals_adj": 5.6763e-06,
+      "pct_nz_group": 0.5776
+    },
+    {
+      "names": "CD40LG",
+      "scores": -6.2730226517,
+      "logfoldchanges": -1.3062666655,
+      "pvals": 4e-10,
+      "pvals_adj": 5.76e-08,
+      "pct_nz_group": 0.1328
+    }
+  ],
+  "top_markers": [
+    {
+      "cluster": "0",
+      "names": "RPS12",
+      "scores": 24.400644,
+      "logfoldchanges": 0.88524055,
+      "pvals": 1.683440446e-131,
+      "pvals_adj": 2.299242961e-127,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9936243256
+    },
+    {
+      "cluster": "0",
+      "names": "RPL32",
+      "scores": 23.550177,
+      "logfoldchanges": 0.70699805,
+      "pvals": 1.250115793e-122,
+      "pvals_adj": 8.537040753e-119,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9970573811
+    },
+    {
+      "cluster": "0",
+      "names": "RPS27",
+      "scores": 23.485327,
+      "logfoldchanges": 0.87580657,
+      "pvals": 5.76100504e-122,
+      "pvals_adj": 2.622793561e-118,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9941147621
+    },
+    {
+      "cluster": "0",
+      "names": "RPS6",
+      "scores": 23.269848,
+      "logfoldchanges": 0.7610735,
+      "pvals": 8.957548442e-120,
+      "pvals_adj": 3.058554915e-116,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9970573811
+    },
+    {
+      "cluster": "0",
+      "names": "RPL31",
+      "scores": 22.183777,
+      "logfoldchanges": 0.98142725,
+      "pvals": 4.926437337e-109,
+      "pvals_adj": 9.612183021e-106,
+      "pct_nz_group": 0.9968,
+      "pct_nz_reference": 0.9666503188
+    },
+    {
+      "cluster": "0",
+      "names": "RPS14",
+      "scores": 22.069477,
+      "logfoldchanges": 0.6770261,
+      "pvals": 6.210568088e-108,
+      "pvals_adj": 1.060299237e-104,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9970573811
+    },
+    {
+      "cluster": "0",
+      "names": "RPS25",
+      "scores": 22.055408,
+      "logfoldchanges": 0.949017,
+      "pvals": 8.476134485e-108,
+      "pvals_adj": 1.286300498e-104,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9784207945
+    },
+    {
+      "cluster": "0",
+      "names": "RPL13",
+      "scores": 21.758327,
+      "logfoldchanges": 0.6668953,
+      "pvals": 5.761136048e-105,
+      "pvals_adj": 7.868559614e-102,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.998038254
+    },
+    {
+      "cluster": "0",
+      "names": "RPL9",
+      "scores": 21.588478,
+      "logfoldchanges": 0.96443546,
+      "pvals": 2.304776119e-103,
+      "pvals_adj": 2.86169384e-100,
+      "pct_nz_group": 0.9968,
+      "pct_nz_reference": 0.9740068661
+    },
+    {
+      "cluster": "0",
+      "names": "RPS3",
+      "scores": 21.489264,
+      "logfoldchanges": 0.72609097,
+      "pvals": 1.961977108e-102,
+      "pvals_adj": 2.233056945e-99,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9965669446
+    },
+    {
+      "cluster": "0",
+      "names": "RPL3",
+      "scores": 21.336884,
+      "logfoldchanges": 0.7365365,
+      "pvals": 5.162223112e-101,
+      "pvals_adj": 5.036117376e-98,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9970573811
+    },
+    {
+      "cluster": "0",
+      "names": "RPS3A",
+      "scores": 21.333328,
+      "logfoldchanges": 1.0293117,
+      "pvals": 5.570005734e-101,
+      "pvals_adj": 5.071675888e-98,
+      "pct_nz_group": 0.9936,
+      "pct_nz_reference": 0.9774399215
+    },
+    {
+      "cluster": "0",
+      "names": "RPLP2",
+      "scores": 21.043123,
+      "logfoldchanges": 0.7357337,
+      "pvals": 2.643741368e-98,
+      "pvals_adj": 2.124012917e-95,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9926434527
+    },
+    {
+      "cluster": "0",
+      "names": "RPL30",
+      "scores": 20.695744,
+      "logfoldchanges": 0.85938066,
+      "pvals": 3.783497724e-95,
+      "pvals_adj": 2.870833995e-92,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9813634134
+    },
+    {
+      "cluster": "0",
+      "names": "RPL21",
+      "scores": 20.46,
+      "logfoldchanges": 0.77610785,
+      "pvals": 4.893951856e-93,
+      "pvals_adj": 3.517978655e-90,
+      "pct_nz_group": 0.9936,
+      "pct_nz_reference": 0.9931338892
+    },
+    {
+      "cluster": "0",
+      "names": "RPS15A",
+      "scores": 20.282574,
+      "logfoldchanges": 0.7845176,
+      "pvals": 1.832835741e-91,
+      "pvals_adj": 1.192041454e-88,
+      "pct_nz_group": 0.9968,
+      "pct_nz_reference": 0.9867582148
+    },
+    {
+      "cluster": "0",
+      "names": "MALAT1",
+      "scores": 20.10801,
+      "logfoldchanges": 0.8386199,
+      "pvals": 6.279378461e-90,
+      "pvals_adj": 3.72885874e-87,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 1.0
+    },
+    {
+      "cluster": "0",
+      "names": "RPS27A",
+      "scores": 20.08721,
+      "logfoldchanges": 1.0630475,
+      "pvals": 9.54802153e-90,
+      "pvals_adj": 5.433619919e-87,
+      "pct_nz_group": 0.9952,
+      "pct_nz_reference": 0.9691025012
+    },
+    {
+      "cluster": "0",
+      "names": "LDHB",
+      "scores": 19.93805,
+      "logfoldchanges": 1.7670194,
+      "pvals": 1.903469095e-88,
+      "pvals_adj": 1.039903236e-85,
+      "pct_nz_group": 0.8992,
+      "pct_nz_reference": 0.6066699362
+    },
+    {
+      "cluster": "0",
+      "names": "CCR7",
+      "scores": 19.73314,
+      "logfoldchanges": 2.7281249,
+      "pvals": 1.119931799e-86,
+      "pvals_adj": 5.665195745e-84,
+      "pct_nz_group": 0.4608,
+      "pct_nz_reference": 0.1147621383
+    },
+    {
+      "cluster": "0",
+      "names": "RPL27A",
+      "scores": 19.2264,
+      "logfoldchanges": 0.6952605,
+      "pvals": 2.225513509e-82,
+      "pvals_adj": 1.085573697e-79,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9901912702
+    },
+    {
+      "cluster": "0",
+      "names": "RPL35A",
+      "scores": 18.93441,
+      "logfoldchanges": 0.7080216,
+      "pvals": 5.937646086e-80,
+      "pvals_adj": 2.79642656e-77,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9828347229
+    },
+    {
+      "cluster": "0",
+      "names": "RPL13A",
+      "scores": 18.858925,
+      "logfoldchanges": 0.5664581,
+      "pvals": 2.482140341e-79,
+      "pvals_adj": 1.059408524e-76,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 1.0
+    },
+    {
+      "cluster": "0",
+      "names": "RPS18",
+      "scores": 18.799215,
+      "logfoldchanges": 0.6223494,
+      "pvals": 7.664112471e-79,
+      "pvals_adj": 3.17201358e-76,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.9975478176
+    },
+    {
+      "cluster": "0",
+      "names": "RPS28",
+      "scores": 18.793468,
+      "logfoldchanges": 0.7729906,
+      "pvals": 8.541107206e-79,
+      "pvals_adj": 3.431013007e-76,
+      "pct_nz_group": 0.9904,
+      "pct_nz_reference": 0.9710642472
+    },
+    {
+      "cluster": "0",
+      "names": "RPS13",
+      "scores": 18.746569,
+      "logfoldchanges": 0.8179099,
+      "pvals": 2.064920691e-78,
+      "pvals_adj": 8.057910514e-76,
+      "pct_nz_group": 0.9824,
+      "pct_nz_reference": 0.9632172634
+    },
+    {
+      "cluster": "0",
+      "names": "EEF1A1",
+      "scores": 18.471605,
+      "logfoldchanges": 0.54830134,
+      "pvals": 3.495381833e-76,
+      "pvals_adj": 1.256313818e-73,
+      "pct_nz_group": 0.9936,
+      "pct_nz_reference": 0.9926434527
+    },
+    {
+      "cluster": "0",
+      "names": "RPS23",
+      "scores": 18.274729,
+      "logfoldchanges": 0.7370281,
+      "pvals": 1.315430973e-74,
+      "pvals_adj": 4.606706725e-72,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9813634134
+    },
+    {
+      "cluster": "0",
+      "names": "TPT1",
+      "scores": 18.242945,
+      "logfoldchanges": 0.7247178,
+      "pvals": 2.354299549e-74,
+      "pvals_adj": 8.038755811e-72,
+      "pct_nz_group": 0.9984,
+      "pct_nz_reference": 0.9847964689
+    },
+    {
+      "cluster": "0",
+      "names": "RPL11",
+      "scores": 18.166515,
+      "logfoldchanges": 0.5058655,
+      "pvals": 9.504635529e-74,
+      "pvals_adj": 3.090816954e-71,
+      "pct_nz_group": 1.0,
+      "pct_nz_reference": 0.998038254
+    }
+  ],
+  "evidence_prefix": "investigation_667a415ef93d"
+}

@@ -1,0 +1,6 @@
+mutation,ligand,biopython_min_dist,pymol_atoms_closer,pymol_atoms_within_d_plus_0p01,agrees
+G719S,AQ4,5.06,0,1,True
+T790M,AQ4,3.48,0,1,True
+C797S,AQ4,3.54,0,1,True
+L858R,AQ4,5.26,0,1,True
+L861Q,AQ4,9.22,0,1,True

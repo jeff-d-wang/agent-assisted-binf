@@ -1,0 +1,8 @@
+{
+  "raw_cells_verified": 2700,
+  "qc_independent_of_scanpy": true,
+  "retained_cells": 2664,
+  "sampled_cells": 1864,
+  "independent_ari_comparisons": 4,
+  "scope": "Numerical and file integrity checks; source support and biological interpretation require human review"
+}

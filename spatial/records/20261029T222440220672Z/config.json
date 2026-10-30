@@ -1,0 +1,19 @@
+{
+  "input_dir": "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/visium_mouse_brain",
+  "model": "claude-haiku-5-5",
+  "counts_file": "V1_Adult_Mouse_Brain_filtered_feature_bc_matrix.h5",
+  "seed": 42,
+  "target_sum": 10000,
+  "min_spots_per_gene": 3,
+  "n_hvgs": 2000,
+  "n_candidates": 200,
+  "n_pcs": 30,
+  "n_neighbors": 15,
+  "scale_max": 10,
+  "resolutions": [
+    0.3,
+    0.5,
+    0.8
+  ],
+  "n_randomizations": 999
+}

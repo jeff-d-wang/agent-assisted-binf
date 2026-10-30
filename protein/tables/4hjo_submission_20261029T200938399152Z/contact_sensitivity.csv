@@ -1,0 +1,16 @@
+mutation,cutoff_A,protein_contacts,ligand_in_cutoff
+G719S,4.0,5,False
+G719S,5.0,7,False
+G719S,6.0,8,True
+T790M,4.0,7,True
+T790M,5.0,9,True
+T790M,6.0,15,True
+C797S,4.0,10,True
+C797S,5.0,11,True
+C797S,6.0,13,True
+L858R,4.0,9,False
+L858R,5.0,12,False
+L858R,6.0,13,True
+L861Q,4.0,12,False
+L861Q,5.0,15,False
+L861Q,6.0,21,False

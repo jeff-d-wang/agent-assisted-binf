@@ -1,0 +1,7 @@
+{
+  "query": "classical monocytes CD14 S100A8 S100A9 LYZ markers single-cell RNA-seq PBMC",
+  "retrieved_at": "2026-10-29T21:34:33.996373+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=classical+monocytes+CD14+S100A8+S100A9+LYZ+markers+single-cell+RNA-seq+PBMC",
+  "fetch_url": null,
+  "papers": []
+}

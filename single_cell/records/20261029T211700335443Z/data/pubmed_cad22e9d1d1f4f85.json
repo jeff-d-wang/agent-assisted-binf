@@ -1,0 +1,7 @@
+{
+  "query": "LYZ monocytes scRNA-seq marker",
+  "retrieved_at": "2026-10-29T21:33:58.586238+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=LYZ+monocytes+scRNA-seq+marker",
+  "fetch_url": null,
+  "papers": []
+}

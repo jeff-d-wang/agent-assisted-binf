@@ -1,0 +1,7 @@
+{
+  "query": "EGFR L861Q biochemical kinase assay erlotinib gefitinib IC50",
+  "retrieved_at": "2026-10-29T20:49:50.588876+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+L861Q+biochemical+kinase+assay+erlotinib+gefitinib+IC50",
+  "fetch_url": null,
+  "papers": []
+}

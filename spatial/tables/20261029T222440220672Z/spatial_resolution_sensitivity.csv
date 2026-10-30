@@ -1,0 +1,4 @@
+resolution,n_clusters,edge_agreement,primary
+0.3,10,0.8257585623128011,False
+0.5,14,0.7800494856101055,True
+0.8,16,0.7805703867691106,False

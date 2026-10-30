@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-30T01:42:22.204689+00:00",
+  "run": "protein/runs/4hjo_submission_20261029T200938399152Z",
+  "original_manifest_sha256": "f83d39bbcfa80134a958142a3d9de004d96fe946599679352199d2dae24fd905",
+  "archive": "archive/2026-10-29-before-deliverable-review",
+  "changed_files": {
+    "RESULTS.md": {
+      "before": "aa1e0d8cd5ae758bda8a4087e2f2ad834f6d56141bbc0048557b24ed517c4e70",
+      "after": "2283995acd4c24df325dd6454d6922047e6da0954c7f0c7b418d75256aaf8986"
+    },
+    "events.jsonl": {
+      "before": "54b3eb9fdecdf273c950424bde56d0d1f3b8f040b0c0c6bd3dc4120564ab7eb8",
+      "after": "d3a51517bc7dbc895b90bd3e24bffa07cb68de5229173553d0624ecfcdb3463c"
+    },
+    "AGENT_LOG.md": {
+      "before": "2b2799710e5fbb824e00aa9317754fc7f039a22002aebca1f0c6825a367dc22f",
+      "after": "50f299404440683bfa0d7ca858452b719ae56fc6ae4d0e7d3c3247715d53f8d8"
+    },
+    "DOCUMENTATION_UPDATE.md": {
+      "before": null,
+      "after": "3ab33b839745213e35e3a17a92a51a892175792db68b621bf0261bb698454253"
+    }
+  },
+  "unchanged_original_numerical_and_execution_artifacts": true,
+  "editor": "Codex",
+  "human_reviewer": "the user",
+  "new_scientific_acceptance": false
+}

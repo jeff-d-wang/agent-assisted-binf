@@ -1,0 +1,23 @@
+{
+  "sha256": {
+    "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/pbmc3k/filtered_gene_bc_matrices/hg19/matrix.mtx": "7d92358b9d29128a225c50f2a662d6ccca9c71bc665e0af82692ed1361eb94e4",
+    "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/pbmc3k/filtered_gene_bc_matrices/hg19/genes.tsv": "8778dd78085086be6dcafa8334f95f7cf76b25526e8ef2b63186db5127a1492c",
+    "/Users/jeffwang/VSCode_Workspace/agent-assisted-binf/datasets/pbmc3k/filtered_gene_bc_matrices/hg19/barcodes.tsv": "58c2a224a2b4258f7e8799a18890bda6d23824b247b80db2b08a0dcc36a4c660"
+  },
+  "versions": {
+    "scanpy": "1.9.8",
+    "anndata": "0.10.5.post1",
+    "numpy": "1.25.2",
+    "pandas": "1.4.2",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4",
+    "scikit-learn": "1.1.1",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "umap-learn": "0.5.5",
+    "pynndescent": "0.5.11",
+    "numba": "0.59.0"
+  },
+  "python": "3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:48:25) \n[Clang 14.0.6 ]",
+  "seed": 42
+}

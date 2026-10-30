@@ -1,0 +1,7 @@
+{
+  "query": "NK cells NKG7 GNLY PRF1 GZMB single-cell cytotoxic lymphocytes",
+  "retrieved_at": "2026-10-29T21:33:23.712252+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=NK+cells+NKG7+GNLY+PRF1+GZMB+single-cell+cytotoxic+lymphocytes",
+  "fetch_url": null,
+  "papers": []
+}

@@ -1,0 +1,7 @@
+{
+  "query": "CD16 monocytes FCGR3A MS4A7 single-cell",
+  "retrieved_at": "2026-10-29T21:34:38.936710+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=CD16+monocytes+FCGR3A+MS4A7+single-cell",
+  "fetch_url": null,
+  "papers": []
+}

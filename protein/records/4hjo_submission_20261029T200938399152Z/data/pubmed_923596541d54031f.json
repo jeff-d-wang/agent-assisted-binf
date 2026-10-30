@@ -1,0 +1,7 @@
+{
+  "query": "EGFR L858R L861Q G719S structural basis activation inactive conformation",
+  "retrieved_at": "2026-10-29T20:15:44.900996+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+L858R+L861Q+G719S+structural+basis+activation+inactive+conformation",
+  "fetch_url": null,
+  "papers": []
+}

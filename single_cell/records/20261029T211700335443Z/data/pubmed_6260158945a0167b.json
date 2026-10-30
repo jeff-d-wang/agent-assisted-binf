@@ -1,0 +1,48 @@
+{
+  "query": "CD3D CD3E T cell marker genes",
+  "retrieved_at": "2026-10-29T21:33:47.607632+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=CD3D+CD3E+T+cell+marker+genes",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=42771562%2C37942472%2C37841886%2C35198572%2C11261926",
+  "papers": [
+    {
+      "pmid": "42771562",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42771562/",
+      "title": "High Infiltration Level of a Prognostic Improvement Associated T Cells Is Favorable for the Prognosis of Patients with Gastric Adenocarcinoma.",
+      "abstract": "Gastric cancer is the fifth most common cancer and the third leading cause of cancer-related deaths worldwide. Research on the tumor microenvironment of gastric cancer remains to be developed.\nWe obtained scRNA-seq data of gastric cancer from the GEO database and used the Seurat package for clustering. We used the Bayesian cell proportion reconstruction algorithm to calculate the cell subpopulation content in TCGA samples and combined it with TCGA survival data to perform the Kaplan-Meier and univariable Cox analyses. We further performed multivariable Cox regression analysis incorporating age, sex, TNM stage, and histological type to evaluate the independent prognostic value of PIA T-cells.\nWe found that a prognostic improvement associated T cells (PIA T-cells) had a better prognosis in gastric adenocarcinoma. PIA T-cells expressed significantly higher levels of 8 genes (ASPM, ATAD2, CENPF, DUT, MKI67, NUSAP1, TOP2A, and TYMS). Phenotypic characterization using canonical T-cell functional markers (CD4, CD8A, GZMB, IFNG, CD3D, CD3E, CD3G, and PDCD1) revealed a distinct phenotypic profile.\nHigh infiltration of PIA T-cells is favorable for the prognosis of patients with gastric adenocarcinoma, and studying PIA T-cells may provide insights into treatments related to the gastric cancer tumor microenvironment. The study of PIA T-cells may provide insights into gastric cancer tumor microenvironment-related treatments and inform future therapeutic strategies.",
+      "journal": "Digestion",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "37942472",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37942472/",
+      "title": "Identification of Genes Associated with Decreasing Abundance of Monocytes in Long-Term Peritoneal Dialysis Patients.",
+      "abstract": "Chronic kidney disease (CKD) will become an end-stage renal disease (ESRD) at stage 5. Peritoneal dialysis (PD) is required for renal replacement therapy. This study aims to identify monocytes-related genes in peritoneal cells from long-term PD (LPD) patients and short-term PD (SPD) patients.\nBulk RNA-seq data (GSE125498 dataset) and ScRNA-seq data (GSE130888) were downloaded to identify differentially expressed genes, monocytes-related genes, and monocytes marker genes in LPD patients. Immune infiltration was analyzed in the GSE125498 dataset. Core genes associated with monocytes changes were screened out, followed by functional analysis and expression validation using RT-PCR.\nMonocytes are the most abundant immune cell in PD. The number of monocytes was remarkably decreased in LPD compared with SPD. A total of 16 up-regulated core genes negatively correlated with the abundance of monocytes were obtained in LPD. The expression of 16 core genes was lower in monocyte clusters than that in other cell clusters. In addition, LCK, CD3G, CD3E, CD3D, and LAT were involved in the signaling pathways of Th1 and Th2 cell differentiation, T cell receptor signaling pathway, and Th17 cell differentiation. CD2 was involved in hematopoietic cell lineage signaling pathway.\nIdentification of monocytes related-genes and related signaling pathways could be helpful in understanding the molecular mechanism of monocytes changes during PD.",
+      "journal": "International journal of general medicine",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "37841886",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37841886/",
+      "title": "Correlation Analysis of Prognostic Gene Expression, Tumor Microenvironment, and Tumor-Infiltrating Immune Cells in Ovarian Cancer.",
+      "abstract": "Tumor microenvironment (TME) research can provide a crucial direction for the innovation and continuous improvement of novel biologic therapies for cancer. This study examined the relationship between the TME, expression profiles of the tumor-infiltrating immune cell, and prognostic gene expression in ovarian cancer (OC).\nScreening of CD3E, CD3G, CD2, CD3D, CCL19, and IL2RG was performed using the bioinformatics methods.\nAll six genes were found to participate in immune-related molecular mechanisms and could regulate the expression of tumor-infiltrating cells. A Kaplan-Meier survival analysis results demonstrated a strong association between overall survival and all gene expressions in patients with OC. CIBERSORT analysis results showed that the expression level of all genes was positively correlated with \u03b3\u03b4 T cell proportions.\nTherefore, in the OC microenvironment, CD3E, CD3G, CD2, CD3D, CCL19, and IL2RG can be potential immunotherapy targets and prognostic markers.",
+      "journal": "Disease markers",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "35198572",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35198572/",
+      "title": "Transcriptome-Based Molecular Networks Uncovered Interplay Between Druggable Genes of CD8+ T Cells and Changes in Immune Cell Landscape in Patients With Pulmonary Tuberculosis.",
+      "abstract": "Tuberculosis (TB) is a major infectious disease, where incomplete information about host genetics and immune responses is hindering the development of transformative therapies. This study characterized the immune cell landscape and blood transcriptomic profile of patients with pulmonary TB (PTB) to identify the potential therapeutic biomarkers.\nThe blood transcriptome profile of patients with PTB and controls were used for fractionating immune cell populations with the CIBERSORT algorithm and then to identify differentially expressed genes (DEGs) with R/Bioconductor packages. Later, systems biology investigations (such as semantic similarity, gene correlation, and graph theory parameters) were implemented to prioritize druggable genes contributing to the immune cell alterations in patients with TB. Finally, real time-PCR (RT-PCR) was used to confirm gene expression levels.\nPatients with PTB had higher levels of four immune subpopulations like CD8+ T cells (P = 1.9 \u00d7 10-8), natural killer (NK) cells resting (P = 6.3 \u00d7 10-5), monocytes (P = 6.4 \u00d7 10-6), and neutrophils (P = 1.6 \u00d7 10-7). The functional enrichment of 624 DEGs identified in the blood transcriptome of patients with PTB revealed major dysregulation of T cell-related ontologies and pathways (q \u2264 0.05). Of the 96 DEGs shared between transcriptome and immune cell types, 39 overlapped with TB meta-profiling genetic signatures, and their semantic similarity analysis with the remaining 57 genes, yielded 45 new candidate TB markers. This study identified 9 CD8+ T cell-associated genes (ITK, CD2, CD6, CD247, ZAP70, CD3D, SH2D1A, CD3E, and IL7R) as potential therapeutic targets of PTB by combining computational druggability and co-expression (r2 \u2265 |0.7|) approaches.\nThe changes in immune cell proportion and the downregulation of T cell-related genes may provide new insights in developing therapeutic compounds against chronic TB.",
+      "journal": "Frontiers in medicine",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "11261926",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11261926/",
+      "title": "A major determinant quantitative-trait locus responsible for atopic dermatitis-like skin lesions in NC/Nga mice is located on Chromosome 9.",
+      "abstract": "NC/Nga (NC) is a newly discovered model mouse for human atopic dermatitis, NC mice showing specific symptoms such as dermatitis and overproduction of IgE. To detect the loci responsible for the onset of dermatitis in the mice, backcross (N2) progeny between (NCxMSM/MS)F1 and NC were generated, where MSM/MS is an inbred strain from Japanese wild mice, Mus musculus molossinus. Linkage disequilibrium between dermatitis and various chromosome-specific microsatellite markers was then examined in the N2 segregants with severe dermatitis. The analysis revealed that the locus of the major determinant (designated here as derm1) was tightly linked to D9Mit163, D9Mit72, D9Mit143, D9Mit103, D9Mit207, and D9Mit209, because these markers showed the highest and most significant chi2 values. Since no recombination was observed among the markers in our linkage map, a radiation hybrid (RH) panel was applied to locate the derm1 locus more precisely. The markers were separated on the RH map, and their order was D9Mit163-D9Mit72-D9Mit143-D9Mit103-D9Mit207-D9Mit209 from the centromere. Several functional candidate genes are located near the locus derm1. These candidates are Thy1, Cd3d, Cd3e, Cd3g, Il10ra, 1118, and Csk, all of which could be involved in allergic responses through effects on T-cell function. Of these candidates, Csk is the strongest for NC dermatitis, since its map position was most tightly linked to the derm1 locus.",
+      "journal": "Immunogenetics",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

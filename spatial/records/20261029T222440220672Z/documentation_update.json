@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-30T01:42:22.204689+00:00",
+  "run": "spatial/runs/20261029T222440220672Z",
+  "original_manifest_sha256": "9b235ee8ff003402e9f2d39c2f97de9608e257791749147fd2e2a04896de7ae0",
+  "archive": "archive/2026-10-29-before-deliverable-review",
+  "changed_files": {
+    "DRAFT.md": {
+      "before": "fb20216e9fd51bdd6e0a59c470e63d71be1f6254f7e86f3f88846f8aac94b090",
+      "after": "616685bbcff6be2b336a30ca4e2873f830c639d7bdd5fe431175437aad00f573"
+    },
+    "EVIDENCE.md": {
+      "before": "b6fd0c4ae2e05b923483d8b5a3cc2dc96b4f5993831c36b514daf1cf635a85c4",
+      "after": "3c722bd82cc3872476143f64398011172975e9f9d4a6715107881e804ffcc1d6"
+    },
+    "RESULTS.md": {
+      "before": "fb20216e9fd51bdd6e0a59c470e63d71be1f6254f7e86f3f88846f8aac94b090",
+      "after": "a10b6f58ec2c4db12af88a763f80ecba8ee32d58ef79def6b08aec6794498194"
+    },
+    "events.jsonl": {
+      "before": "f2950d28123a30cbc9724e0d281f66017995aae82047757dfc4e715723973c9d",
+      "after": "3db2704c388050af379ecdd5bdc23ec28e11d43bdaf5d25113ba5753cccb3b39"
+    },
+    "AGENT_LOG.md": {
+      "before": "2fd10fb19c796873faf5b43b8327e73d11dfc23846b8da5b91a1d169384e15f3",
+      "after": "c41772da774fa46ecaf9cf655752aafa5f167207f5778eed51ea8de474b760d5"
+    },
+    "REVIEW.md": {
+      "before": "2db2dfa5f489c3d9291b6167809eb156feef15126cdb3238bfd480254cd8a8bf",
+      "after": "8afe311b9a8a8ba2c071e56a355598d3a01f25fb0e1d8222a97ccf707b1aa8d6"
+    },
+    "DOCUMENTATION_UPDATE.md": {
+      "before": null,
+      "after": "dedb5a940c69653d87dc0161ee6e1b0f79620d2cb080ac2a5caf22c8f356dfc6"
+    }
+  },
+  "unchanged_original_numerical_and_execution_artifacts": true,
+  "editor": "Codex",
+  "human_reviewer": "the user",
+  "new_scientific_acceptance": false
+}

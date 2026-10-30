@@ -1,0 +1,111 @@
+{
+  "annotations": [
+    {
+      "run": "downsample",
+      "cluster": "0",
+      "label": "T cells (CD4/CD8 identity and naive/memory state unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D 87%, CD3E 78%, LDHB 91% (vs 47% elsewhere); CD4 10%, CD8A 10%, IL7R 66%, CCR7 38%. Inference: no CD4/CD8 or naive/memory call, so no 'CD4-like'. Retrieved: abstracts name CD3D/CD3E as T-cell genes, not LDHB. 830/852 baseline T cells recovered; 22 went to cluster 2."
+    },
+    {
+      "run": "downsample",
+      "cluster": "1",
+      "label": "CD14+ monocytes (classical-like)",
+      "confidence": "supported",
+      "markers": [
+        "S100A8",
+        "S100A9",
+        "CD14",
+        "LYZ",
+        "FCN1",
+        "LGALS2"
+      ],
+      "pmids": [
+        "42004243",
+        "32810439",
+        "38936146"
+      ],
+      "notes": "Computed: S100A8, S100A9, LGALS2, FCN1, LYZ strongly enriched; CD14 65% vs 3%; FCGR3A 14%. Retrieved: abstracts link S100A8/S100A9 and CD14++ to classical monocytes, not LGALS2, FCN1 or LYZ. Baseline CD14 cells: 313/363 stayed; 29 went to cluster 5, 21 to cluster 4. The res_1.5 CD14 split is not testable at 0.6."
+    },
+    {
+      "run": "downsample",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK cells and CD8+ T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "GZMA",
+        "PRF1",
+        "GNLY",
+        "GZMB"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: NKG7 98%, GZMA 89%, PRF1 66%, GNLY 52%, GZMB 51%; CD3D 63%, CD8A 39%, GZMK 43%, KLRF1 12%. Inference: NK plus GZMK+ CD8 mixture. That split exists only at res \u22651.0, so it is not testable at 0.6. Retrieved: abstracts support NKG7/GNLY/PRF1/GZMB as cytotoxic genes, not GZMA or an NK/T split. 286/305 baseline cells recovered."
+    },
+    {
+      "run": "downsample",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1",
+        "VPREB3"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A 94% vs 4%, MS4A1 86%, plus CD79B, TCL1A, BANK1, VPREB3 and MHC class II genes. Retrieved: 38770541 names CD79A and MS4A1 as B-cell markers, but in one CLL patient, so scope is limited. Naive-like state is an untested inference. Baseline B cells: 235/235 recovered."
+    },
+    {
+      "run": "downsample",
+      "cluster": "4",
+      "label": "FCGR3A+ (CD16+) non-classical monocytes",
+      "confidence": "tentative",
+      "markers": [
+        "FCGR3A",
+        "MS4A7",
+        "CDKN1C",
+        "LILRA3",
+        "LST1"
+      ],
+      "pmids": [
+        "32810439",
+        "42889286"
+      ],
+      "notes": "Computed: FCGR3A 92% vs 14%, MS4A7, CDKN1C, LILRA3, LST1 enriched; CD14 20%, LYZ 99%; cytotoxic genes low. Retrieved: abstracts describe CD16+/non-classical monocytes but name none of these genes, so label-level support only. Tentative in every run. Baseline FCGR3A cells: 100/109 stayed; 21 baseline CD14 cells joined. Merges with CD14 monocytes at 0.3."
+    },
+    {
+      "run": "downsample",
+      "cluster": "5",
+      "label": "Dendritic cell-like (CD1C+ FCER1A+ cDC2-like; pDC admixture and doublets not excluded)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791"
+      ],
+      "notes": "Computed (29 cells, all baseline CD14 cells): FCER1A 86% vs 0.8%, CLEC10A 79%, CD1C 45%, SERPINF1 41%; CLEC4C 17%, LILRA4 14%. Median counts 4639 vs 1760-3876. Detection per cluster: CD3D 17%, CD79A 21%, NKG7 31%. Per-cell co-detection not computed, so doublets are unresolved. Retrieved: 38582791 names FCER1A+CD1C+ DCs (tumor)."
+    }
+  ]
+}

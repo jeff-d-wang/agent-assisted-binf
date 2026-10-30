@@ -1,0 +1,16 @@
+{
+  "input_spots": 2702,
+  "retained_spots": 2668,
+  "filter_failures_nonexclusive": {
+    "outside_tissue": 0,
+    "low_genes": 10,
+    "high_genes": 7,
+    "low_counts": 9,
+    "high_counts": 11,
+    "high_mt": 11
+  },
+  "genes_after_filtering": 19622,
+  "clustering_hvgs": 2000,
+  "candidate_genes": 200,
+  "threshold_rule": "Inclusive; out-of-tissue and zero-count spots excluded"
+}

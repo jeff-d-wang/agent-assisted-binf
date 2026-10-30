@@ -1,0 +1,13 @@
+{
+  "input_cells": 2700,
+  "retained_cells": 2664,
+  "excluded_any": 36,
+  "nonexclusive_filter_failures": {
+    "low_genes": 15,
+    "high_genes": 5,
+    "low_counts": 13,
+    "high_counts": 5,
+    "high_mt": 8
+  },
+  "boundary_rule": "Inclusive keep thresholds; failure counts overlap"
+}

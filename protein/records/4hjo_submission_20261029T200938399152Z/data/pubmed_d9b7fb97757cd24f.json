@@ -1,0 +1,7 @@
+{
+  "query": "EGFR C797S erlotinib gefitinib sensitivity reversible inhibitor",
+  "retrieved_at": "2026-10-29T20:49:48.821698+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=EGFR+C797S+erlotinib+gefitinib+sensitivity+reversible+inhibitor",
+  "fetch_url": null,
+  "papers": []
+}

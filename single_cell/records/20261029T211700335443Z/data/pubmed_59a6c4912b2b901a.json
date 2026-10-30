@@ -1,0 +1,24 @@
+{
+  "query": "CD14 FCGR3A monocytes scRNA-seq PBMC",
+  "retrieved_at": "2026-10-29T21:34:01.189821+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=CD14+FCGR3A+monocytes+scRNA-seq+PBMC",
+  "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=42868142%2C42794611",
+  "papers": [
+    {
+      "pmid": "42868142",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42868142/",
+      "title": "Cross-omics mapping of the human HIV restrictome across clinical states, immune-cell compartments, and protein responses.",
+      "abstract": "Host restriction factors can block HIV at multiple stages, but they are often studied as individual genes or within a single molecular layer. I performed an evidence-structured computational reanalysis of three independent public datasets to determine how the human HIV restrictome varies across clinical states, immune-cell compartments, and protein responses. The analysis used bulk monocyte RNA sequencing (GSE157198), PBMC single-cell/CITE-seq data (GSE256089), and primary CD4 T-cell proteomics (PXD012263) within a prespecified restrictome-immunometabolism framework. In GSE157198, ART-naive monocytes had higher core-restrictome activity than healthy controls (difference\u2009=\u20091.154, p\u2009=\u20090.000746), and core scores were strongly correlated with interferon/innate-sensing scores (Spearman r\u2009=\u20090.800, p\u2009=\u20097.47\u2009\u00d7\u200910^-11). Core-lipid/cholesterol correlation was weaker and was not independent of interferon after conditional analysis. In GSE256089, participant-paired core-restrictome scores were enriched in NK cells relative to B cells, monocytes, and T cells, and matched random-gene-set analyses supported enrichment beyond background expression structure. FCGR3A monocytes also had higher participant-paired core scores than CD14 monocytes. Exploratory sensing/death-gene analysis identified cell-type-specific expression patterns but did not establish pathway activation, pyroptosis, or apoptosis. In PXD012263, the historical q\u2009<\u20090.05 proteomic selection contained 19 curated genes and retained mixed response polarity; sensitivity thresholds q\u2009<\u20090.01 and q\u2009<\u20090.10 selected 10 and 25 genes, respectively. Together, the results show that HIV restrictome activity varies across clinical and immune-cell contexts and is embedded within broader interferon-linked and immunometabolic states. Because the datasets are independent and not subject matched, the findings are observational and hypothesis-generating rather than causal.",
+      "journal": "PloS one",
+      "evidence_depth": "title/abstract only"
+    },
+    {
+      "pmid": "42794611",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42794611/",
+      "title": "Fail-Closed Validation of Lineage-Associated Transcript-Count Diversity After IFN-\u03b2 Stimulation in a Public Human PBMC Dataset.",
+      "abstract": "Shannon entropy of single-cell transcript counts reflects composition and sampling. We tested whether interferon-beta (IFN-\u03b2) stimulation was associated with donor-consistent diversity changes after employing technical controls. We reanalyzed GSE96583 peripheral blood mononuclear cells from eight donors with lupus, treating donors-not the 8949 target cells obtained from them-as inferential units. Analyses included sampling without replacement at 562 unique molecular identifiers, a 750-molecule sensitivity analysis, Miller-Madow correction, IFN-gene removal, and exact compositional decomposition. Mean paired-donor raw-count plug-in entropy increased by 0.138 bits in CD14+ monocytes and 0.329 bits in FCGR3A+ monocytes and decreased by 0.080 bits in natural killer cells. Directions persisted across prespecified robustness variants. Monocyte increases accompanied higher evenness and lower transcript dominance; natural killer cells showed the opposite pattern, without consistent richness changes. Adding IFN activity to donor-, condition-, and technical-covariate-adjusted models increased R2 by at most 0.0108. Entropy contributions strongly overlapped pseudobulk expression changes. In GSE194122, the implemented binary chromatin-accessibility entropy was determined by open-peak count, precluding biological cross-modality coupling claims. These findings support a lineage-divergent association within this single lupus cohort; independent replication is required before broader biological or diagnostic interpretation.",
+      "journal": "International journal of molecular sciences",
+      "evidence_depth": "title/abstract only"
+    }
+  ]
+}

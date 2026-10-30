@@ -1,0 +1,12 @@
+{
+  "definition": "Original Visium lattice immediate neighbors: offsets (0,+/-2), (+/-1,+/-1)",
+  "weights": "Symmetric binary, no self edges, no row normalization; no bridging missing sites",
+  "spots": 2668,
+  "undirected_edges": 7679,
+  "isolated_spots": 0,
+  "connected_components": 3,
+  "min_degree": 1,
+  "max_degree": 6,
+  "moran_spots": 2668,
+  "isolate_policy": "Moran excludes isolates before centering; DE includes all retained spots. Label permutations include all retained spots."
+}

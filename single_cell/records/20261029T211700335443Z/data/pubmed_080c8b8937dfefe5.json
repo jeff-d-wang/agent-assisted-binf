@@ -1,0 +1,7 @@
+{
+  "query": "platelet markers PPBP PF4 GP9 ITGA2B single-cell RNA-seq PBMC",
+  "retrieved_at": "2026-10-29T21:36:18.506021+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=platelet+markers+PPBP+PF4+GP9+ITGA2B+single-cell+RNA-seq+PBMC",
+  "fetch_url": null,
+  "papers": []
+}

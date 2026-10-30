@@ -1,0 +1,5 @@
+{
+  "input_dir": "datasets/pbmc3k/filtered_gene_bc_matrices/hg19",
+  "model": "claude-sonnet-5-5",
+  "question": "Which major immune-cell populations are supported by data-derived markers, and which biological conclusions remain stable across reasonable Leiden resolutions and a fixed-seed cell subsample?"
+}

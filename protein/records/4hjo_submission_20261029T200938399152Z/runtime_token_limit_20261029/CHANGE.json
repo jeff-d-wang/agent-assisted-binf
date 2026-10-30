@@ -1,0 +1,11 @@
+{
+  "reason": "Response 005 hit max_tokens: 16000 output tokens including 9881 thinking tokens.",
+  "original_runtime_sha256": "56325a93294bf92b3b4a87c63bccaa2ee07fb7ea28f1ccee5967da736c0de2c5",
+  "updated_runtime_sha256": "f53ada297bba09b8641a8ddecee3ef2675833f0bdaabd4777b348be8b2704ba8",
+  "max_tokens_before": 16000,
+  "max_tokens_after": 32000,
+  "timeout_before_seconds": 180,
+  "timeout_after_seconds": 360,
+  "state_preserved": "interpret",
+  "original_evidence_unchanged": true
+}

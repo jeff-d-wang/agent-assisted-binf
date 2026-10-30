@@ -1,0 +1,87 @@
+{
+  "annotations": [
+    {
+      "run": "res_0p3",
+      "cluster": "0",
+      "label": "T cells (CD4-like predominant; naive/memory split unresolved)",
+      "confidence": "supported",
+      "markers": [
+        "CD3D",
+        "CD3E",
+        "LDHB"
+      ],
+      "pmids": [
+        "42771562",
+        "37942472"
+      ],
+      "notes": "Computed: CD3D and CD3E are enriched, with detection 88% and 77%. IL7R is detected in 66% of cells and CD8A in 12%, which suggests CD4-predominant T cells (inference). CCR7 is detected in 36%. The retrieved abstracts support CD3D/CD3E as T-cell genes but not LDHB. Naive versus memory is not resolved at this resolution."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "1",
+      "label": "Monocytes (CD14+ and FCGR3A+ likely mixed)",
+      "confidence": "uncertain",
+      "markers": [
+        "LYZ",
+        "S100A9",
+        "CST3",
+        "FCN1",
+        "LST1"
+      ],
+      "pmids": [],
+      "notes": "Computed: these myeloid genes are strongly enriched, and LYZ is detected in 99% of cells. CD14 is detected in 53% and FCGR3A in 34%, so classical and non-classical monocytes may be merged. Evidence gap: no retrieved abstract links these specific genes to monocytes, so confidence stays uncertain despite the strong computed signal."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "2",
+      "label": "Cytotoxic lymphocytes (NK cells and CD8+ effector T cells, mixed)",
+      "confidence": "supported",
+      "markers": [
+        "NKG7",
+        "GZMA",
+        "PRF1",
+        "CST7",
+        "GNLY"
+      ],
+      "pmids": [
+        "40538191",
+        "39074350",
+        "42682208"
+      ],
+      "notes": "Computed: cytotoxic genes are enriched, and NKG7 is detected in 99.8% of cells. CD3D is detected in 60%, CD8A in 36% and KLRF1 in 12%, so NK and CD8 T cells are probably mixed. NCAM1 is low. The abstracts support NKG7/GNLY/PRF/GZMB as cytotoxic markers, not an NK versus T split. Split not resolved."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "3",
+      "label": "B cells",
+      "confidence": "supported",
+      "markers": [
+        "CD79A",
+        "MS4A1",
+        "CD79B",
+        "TCL1A",
+        "BANK1"
+      ],
+      "pmids": [
+        "38770541"
+      ],
+      "notes": "Computed: CD79A, MS4A1 and CD79B are strongly enriched, together with MHC class II genes. TCL1A and FCER2 suggest a naive-like B subset (inference, not tested). PMID 38770541 names CD79A and MS4A1 as B-cell markers, but in a CLL context, so scope is limited. Distinct UMAP island."
+    },
+    {
+      "run": "res_0p3",
+      "cluster": "4",
+      "label": "Dendritic cells (CD1C+ cDC-like; pDC admixture possible)",
+      "confidence": "tentative",
+      "markers": [
+        "FCER1A",
+        "CLEC10A",
+        "CD1C",
+        "SERPINF1"
+      ],
+      "pmids": [
+        "38582791"
+      ],
+      "notes": "Computed: FCER1A is detected in 83% of cells and CLEC10A in 69%, both strongly enriched. CD1C is detected in 50%. The cluster has 36 cells. CLEC4C and SERPINF1 appear in a minority of cells, so pDCs may be mixed in. Support is one tumor scRNA abstract naming FCER1A+CD1C+ DCs. Marker overlap is partial, so confidence is tentative."
+    }
+  ]
+}

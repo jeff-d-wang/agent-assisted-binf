@@ -1,0 +1,7 @@
+{
+  "query": "non-classical monocytes FCGR3A MS4A7 CDKN1C single-cell markers",
+  "retrieved_at": "2026-10-29T21:34:34.706804+00:00",
+  "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=5&term=non-classical+monocytes+FCGR3A+MS4A7+CDKN1C+single-cell+markers",
+  "fetch_url": null,
+  "papers": []
+}
